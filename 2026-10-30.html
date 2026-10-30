@@ -1,0 +1,1108 @@
+<!DOCTYPE html><html lang="vi"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Tin nóng 24h — 2026-10-30</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;background:#0b0f14;color:#e6edf3;
+     font:15px/1.55 -apple-system,"Segoe UI",Roboto,sans-serif}
+header{padding:22px 20px 14px;border-bottom:1px solid #1e242c;position:sticky;
+       top:0;background:#0b0f14;z-index:20}
+h1{margin:0 0 4px;font-size:21px}
+.sub{color:#7d8590;font-size:12.5px}
+.stats{margin-top:10px;display:flex;gap:16px;flex-wrap:wrap;font-size:12.5px;color:#adbac7}
+.stats b{color:#58a6ff}
+.bar{display:flex;gap:7px;flex-wrap:wrap;margin-top:13px;align-items:center}
+.bar .lb{font-size:11px;color:#6e7681;text-transform:uppercase;letter-spacing:.6px;
+         margin-right:2px;min-width:52px}
+.btn{border:1px solid #30363d;background:#151b23;color:#adbac7;font-size:12.5px;
+     padding:5px 12px;border-radius:16px;cursor:pointer;font-family:inherit}
+.btn:hover{border-color:#58a6ff;color:#e6edf3}
+.btn.on{background:#1f6feb;border-color:#1f6feb;color:#fff;font-weight:600}
+#q{background:#0d1117;border:1px solid #30363d;color:#e6edf3;border-radius:16px;
+   padding:6px 13px;font-size:12.5px;font-family:inherit;min-width:210px}
+#q:focus{outline:none;border-color:#58a6ff}
+main{padding:14px 20px 70px;max-width:1060px;margin:0 auto}
+.card{display:flex;gap:13px;padding:13px;border:1px solid #1e242c;border-radius:10px;
+      margin-bottom:9px;background:#111820}
+.thumb{width:104px;height:104px;border-radius:8px;object-fit:cover;flex:0 0 auto;
+       background:#0d1117;border:1px solid #1e242c}
+.thumb.v{height:78px;width:138px}
+@media(max-width:560px){.thumb{width:74px;height:74px}.thumb.v{width:98px;height:56px}}
+.card.so{border-color:#6e40c9;background:#160f26}
+.rank{font:700 18px/1 monospace;color:#3d444d;min-width:40px;text-align:right;padding-top:3px}
+.card.so .rank{color:#a371f7}
+.body{flex:1;min-width:0}
+.top{display:flex;gap:6px;align-items:center;margin-bottom:6px;flex-wrap:wrap}
+.sc{font:700 11.5px/1 monospace;color:#0b0f14;background:#3fb950;padding:4px 7px;border-radius:5px}
+.card.so .sc{background:#a371f7}
+.p{display:inline-block;color:#fff;font-size:9.5px;font-weight:700;padding:2px 6px;
+   border-radius:4px;letter-spacing:.3px;text-transform:uppercase}
+.p.cat{background:#1f6feb}
+.p.cat.cops{background:#bf6a02}
+.p.so{background:#8957e5}
+.p.nw{background:#238636}
+.p.md{background:#30363d}
+.tt{font-size:15.5px;font-weight:600;margin-bottom:5px;line-height:1.4}
+.tt a{color:#e6edf3;text-decoration:none}
+.tt a:hover{color:#58a6ff}
+.meta{color:#7d8590;font-size:12px;margin-bottom:2px}
+.au{color:#6e7681;font-size:11.5px;margin-top:3px}
+.also{margin:8px 0 0;padding-left:16px;font-size:12.5px;color:#7d8590}
+.also a{color:#9db4c0;text-decoration:none}
+.also a:hover{color:#58a6ff}
+.also i{font-style:normal;color:#3d444d;font-size:11px}
+.nd{margin-top:6px;font-size:11.5px;color:#3fb950}
+.hide{display:none}
+.empty{color:#6e7681;padding:40px 0;text-align:center}
+.legend{margin-top:9px;font-size:11.5px;color:#6e7681}
+.legend span{display:inline-block;width:10px;height:10px;border-radius:3px;
+             vertical-align:-1px;margin:0 4px 0 12px}
+</style></head><body>
+<header>
+  <h1>Tin nóng 24 giờ qua</h1>
+  <div class="sub">Cập nhật 30/10/2026 07:00 (giờ VN) · quét báo chí · YouTube · Facebook · Reddit · X
+    · <a href="archive.html" style="color:#58a6ff">lưu trữ</a></div>
+  <div class="sub" style="margin-top:6px">Kỳ: <b>2026-10-30</b> · <a href="index.html" style="color:#58a6ff">mới nhất</a></div>
+  <div class="stats">
+    <div>Tổng <b>100</b> tin</div>
+    <div>Chính trị <b>48</b></div>
+    <div>Cops <b>52</b></div>
+    <div>Chỉ MXH <b>0</b></div>
+    <div>Đang xem <b id="cnt">100</b></div>
+  </div>
+  <div class="bar"><span class="lb">Danh mục</span><button class="btn on" onclick="setF('cat','all');var p=this.parentNode;p.querySelectorAll('.btn').forEach(function(b){b.classList.remove('on')});this.classList.add('on')">Tất cả</button><button class="btn" onclick="setF('cat','politics');var p=this.parentNode;p.querySelectorAll('.btn').forEach(function(b){b.classList.remove('on')});this.classList.add('on')">Chính trị 48</button><button class="btn" onclick="setF('cat','cops');var p=this.parentNode;p.querySelectorAll('.btn').forEach(function(b){b.classList.remove('on')});this.classList.add('on')">Cops 52</button></div>
+  <div class="bar"><span class="lb">Nền tảng</span><button class="btn on" onclick="setF('plat','all');var p=this.parentNode;p.querySelectorAll('.btn').forEach(function(b){b.classList.remove('on')});this.classList.add('on')">Tất cả</button><button class="btn" onclick="setF('plat','youtube');var p=this.parentNode;p.querySelectorAll('.btn').forEach(function(b){b.classList.remove('on')});this.classList.add('on')">YouTube 4</button><button class="btn" onclick="setF('plat','reddit');var p=this.parentNode;p.querySelectorAll('.btn').forEach(function(b){b.classList.remove('on')});this.classList.add('on')">Reddit 9</button><button class="btn" onclick="setF('plat','press');var p=this.parentNode;p.querySelectorAll('.btn').forEach(function(b){b.classList.remove('on')});this.classList.add('on')">Báo chí 100</button>
+    <input id="q" placeholder="tìm trong tiêu đề..." autocomplete="off">
+  </div>
+  <div class="legend"><span style="background:#8957e5"></span>chỉ hot MXH (báo chưa đưa)
+  <span style="background:#238636"></span>báo đã đưa
+  <span style="background:#1f6feb"></span>chính trị
+  <span style="background:#bf6a02"></span>cops</div>
+</header>
+<main>
+<div class="card" data-cat="politics" data-plat="press" data-txt="trump says he may move white house press corps reuters.com">
+  <div class="rank">#1</div>
+  
+  <div class="body">
+    <div class="top"><span class="sc">100.0</span><span class="p" style="background:#238636">Báo chí</span><span class="p cat">Chính trị</span><span class="p md">bài báo</span><span class="p nw">12 báo</span></div>
+    <div class="tt"><a href="https://www.reuters.com/business/media-telecom/trump-says-he-may-move-white-house-press-corps-2026-10-24/" target="_blank" rel="noopener">Trump says he may move White House press corps</a></div>
+    <div class="meta">⏱ 4.0h</div>
+    <div class="au">reuters.com</div><ul class="also"><li><a href="https://www.independent.co.uk/bulletin/news/trump-white-house-press-room-remodel-b3072803.html" target="_blank" rel="noopener">Trump eyes another White House remodel project</a> <i>Báo chí · independent.co.uk</i></li><li><a href="https://www.journalgazette.net/local/indiana/state-government/white-house-visits-overseas-conferences-among-indiana-officials-132k-in-travel-expenses/article_398955a8-c874-4e50-8670-88b28cf2b4b3.html" target="_blank" rel="noopener">White House visits, overseas conferences among Indiana officials ...</a> <i>Báo chí · journalgazette.net</i></li><li><a href="https://www.idahostatesman.com/news/nation-world/national/article317762478.html" target="_blank" rel="noopener">Trump suggests he might move press corps out of the White House</a> <i>Báo chí · idahostatesman.com</i></li><li><a href="https://lufkindailynews.com/news_reuters/national/trump-says-he-may-move-white-house-press-corps/article_28169ff6-a0e7-5185-80c0-d90b00cf5251.html" target="_blank" rel="noopener">Trump says he may move White House press corps</a> <i>Báo chí · lufkindailynews.com</i></li></ul><div class="nd">Báo đã đưa: abcnews4.com, dewittdailynews.com, idahostatesman.com, independent.co.uk, investing.com, journalgazette.net</div>
+  </div>
+</div>
+<div class="card" data-cat="politics" data-plat="press" data-txt="trump is exempting some canadian goods from 50% tariffs, adding ... qz.com">
+  <div class="rank">#2</div>
+  
+  <div class="body">
+    <div class="top"><span class="sc">89.2</span><span class="p" style="background:#238636">Báo chí</span><span class="p cat">Chính trị</span><span class="p md">bài báo</span><span class="p nw">4 báo</span></div>
+    <div class="tt"><a href="https://qz.com/trump-canadian-tariffs-exemptions-section-338-collins-102326" target="_blank" rel="noopener">Trump is exempting some Canadian goods from 50% tariffs, adding ...</a></div>
+    <div class="meta">👁 233.6k · ⏱ 8.0h</div>
+    <div class="au">qz.com</div><ul class="also"><li><a href="https://www.wxyz.com/news/trump-removes-tariffs-on-several-canadian-goods-just-days-before-election-day" target="_blank" rel="noopener">Trump removes tariffs on several Canadian goods just days before ...</a> <i>Báo chí · wxyz.com</i></li><li><a href="https://abcnews4.com/news/nation-world/trump-lifts-tariffs-on-some-canadian-imports-adds-others-in-sweeping-revision" target="_blank" rel="noopener">Trump lifts tariffs on some Canadian imports, adds others in ...</a> <i>Báo chí · abcnews4.com</i></li><li><a href="https://montrealgazette.com/news/quebec-stands-to-gain-as-trump-revises-tariffs-on-canadian-goods/" target="_blank" rel="noopener">Why Trump's latest tariff changes are good news for Quebec</a> <i>Báo chí · montrealgazette.com</i></li></ul><div class="nd">Báo đã đưa: abcnews4.com, montrealgazette.com, qz.com, wxyz.com</div>
+  </div>
+</div>
+<div class="card" data-cat="politics" data-plat="press" data-txt="donald trump says polls are fake and insists his approval rating is ... the-independent.com">
+  <div class="rank">#3</div>
+  
+  <div class="body">
+    <div class="top"><span class="sc">88.4</span><span class="p" style="background:#238636">Báo chí</span><span class="p cat">Chính trị</span><span class="p md">bài báo</span><span class="p nw">4 báo</span></div>
+    <div class="tt"><a href="https://www.the-independent.com/news/world/americas/us-politics/trump-approval-ratings-midterms-b3072742.html" target="_blank" rel="noopener">Donald Trump says polls are fake and insists his approval rating is ...</a></div>
+    <div class="meta">⏱ 5.0h</div>
+    <div class="au">the-independent.com</div><ul class="also"><li><a href="https://www.newsweek.com/donald-trump-approval-rating-shifts-america-cities-12613642" target="_blank" rel="noopener">Trump's Approval Rating Quietly Shifts in America's Cities</a> <i>Báo chí · newsweek.com</i></li><li><a href="https://www.inkl.com/news/donald-trump-approval-ratings-improve-ahead-of-november-3-us-midterm-elections-will-it-help-republicans" target="_blank" rel="noopener">Donald Trump approval ratings improve ahead of…</a> <i>Báo chí · inkl.com</i></li><li><a href="https://www.yahoo.com/news/politics/articles/trump-insists-job-approval-somehow-144140167.html" target="_blank" rel="noopener">Trump Insists His Job Approval Is Somehow Actually 60% Amid ...</a> <i>Báo chí · yahoo.com</i></li></ul><div class="nd">Báo đã đưa: inkl.com, newsweek.com, the-independent.com, yahoo.com</div>
+  </div>
+</div>
+<div class="card" data-cat="cops" data-plat="press" data-txt="oregon school shooter had family with a violent past, records sho nbcnews.com">
+  <div class="rank">#4</div>
+  
+  <div class="body">
+    <div class="top"><span class="sc">87.0</span><span class="p" style="background:#238636">Báo chí</span><span class="p cat cops">Cops</span><span class="p md">bài báo</span><span class="p nw">5 báo</span></div>
+    <div class="tt"><a href="https://www.nbcnews.com/news/us-news/oregon-school-shooter-family-violent-records-sho-rcna604977" target="_blank" rel="noopener">Oregon school shooter had family with a violent past, records sho</a></div>
+    <div class="meta">⏱ 5.0h</div>
+    <div class="au">nbcnews.com</div><ul class="also"><li><a href="https://kval.com/news/local/oregon-man-who-killed-school-shooter-says-he-regrets-there-were-children-he-didnt-save" target="_blank" rel="noopener">Oregon man who killed school shooter says he regrets there ...</a> <i>Báo chí · kval.com</i></li><li><a href="https://www.wfla.com/news/national/oregon-man-who-killed-school-shooter-says-he-regrets-there-were-children-he-didnt-save/" target="_blank" rel="noopener">Oregon man who killed school shooter says he regrets there ...</a> <i>Báo chí · wfla.com</i></li><li><a href="https://www.latimes.com/world-nation/story/2026-10-24/oregon-man-who-killed-school-shooter-says-he-regrets-there-were-children-he-didnt-save" target="_blank" rel="noopener">Oregon man who killed school shooter says he regrets there were ...</a> <i>Báo chí · latimes.com</i></li><li><a href="https://kcby.com/news/local/oregon-man-who-killed-school-shooter-says-he-regrets-there-were-children-he-didnt-save?teaserSource=trending" target="_blank" rel="noopener">Oregon man who killed school shooter says he regrets there were ...</a> <i>Báo chí · kcby.com</i></li></ul><div class="nd">Báo đã đưa: kcby.com, kval.com, latimes.com, nbcnews.com, wfla.com</div>
+  </div>
+</div>
+<div class="card" data-cat="politics" data-plat="press" data-txt="donald trump denies plans to replace press room with pool thehill.com">
+  <div class="rank">#5</div>
+  
+  <div class="body">
+    <div class="top"><span class="sc">86.1</span><span class="p" style="background:#238636">Báo chí</span><span class="p cat">Chính trị</span><span class="p md">bài báo</span><span class="p nw">4 báo</span></div>
+    <div class="tt"><a href="https://thehill.com/homenews/administration/6169992-trump-denies-press-room-swimming-pool/" target="_blank" rel="noopener">Donald Trump denies plans to replace press room with pool</a></div>
+    <div class="meta">⏱ 10.0h</div>
+    <div class="au">thehill.com</div><ul class="also"><li><a href="https://www.wkrn.com/news/national/trump-hints-that-white-house-press-area-may-be-moved-to-another-location/" target="_blank" rel="noopener">Donald Trump denies plans to replace press room with pool</a> <i>Báo chí · wkrn.com</i></li><li><a href="https://www.wwlp.com/news/national/trump-hints-that-white-house-press-area-may-be-moved-to-another-location/" target="_blank" rel="noopener">Donald Trump denies plans to replace press room with pool</a> <i>Báo chí · wwlp.com</i></li><li><a href="https://www.ourquadcities.com/news/national-news/trump-hints-that-white-house-press-area-may-be-moved-to-another-location/" target="_blank" rel="noopener">Donald Trump denies plans to replace press room with pool</a> <i>Báo chí · ourquadcities.com</i></li></ul><div class="nd">Báo đã đưa: ourquadcities.com, thehill.com, wkrn.com, wwlp.com</div>
+  </div>
+</div>
+<div class="card" data-cat="cops" data-plat="press" data-txt="georgia man arrested for molotov cocktail attack on atlanta ice ... foxnews.com">
+  <div class="rank">#6</div>
+  
+  <div class="body">
+    <div class="top"><span class="sc">84.4</span><span class="p" style="background:#238636">Báo chí</span><span class="p cat cops">Cops</span><span class="p md">bài báo</span><span class="p nw">5 báo</span></div>
+    <div class="tt"><a href="https://www.foxnews.com/us/fbi-arrests-georgia-man-accused-throwing-molotov-cocktail-atlanta-ice-facility" target="_blank" rel="noopener">Georgia man arrested for Molotov cocktail attack on Atlanta ICE ...</a></div>
+    <div class="meta">👁 61.3k · ⏱ 10.0h</div>
+    <div class="au">foxnews.com</div><ul class="also"><li><a href="https://www.fox9.com/news/31-year-old-man-arrested-molotov-style-attack-atlanta-ice-building" target="_blank" rel="noopener">31-year-old man arrested in Molotov attack on Atlanta ICE building</a> <i>Báo chí · fox9.com</i></li><li><a href="https://www.rochesterfirst.com/news/national/ap-georgia-man-charged-with-throwing-molotov-cocktail-at-atlanta-ice-building/" target="_blank" rel="noopener">Georgia man charged with throwing Molotov cocktail at Atlanta ICE ...</a> <i>Báo chí · rochesterfirst.com</i></li><li><a href="https://www.fox13news.com/news/31-year-old-man-arrested-molotov-style-attack-atlanta-ice-building" target="_blank" rel="noopener">31-year-old man arrested in Molotov attack on Atlanta ICE building</a> <i>Báo chí · fox13news.com</i></li><li><a href="https://www.washingtontimes.com/news/2026/oct/24/feds-arrest-man-connection-ice-office-bombing-atlanta/?srsltid=AYCX9vLjt6Sw4I7L9fBvCJZNmq-YkMVHhL3oTCOuDTGyJrS_m1euGYZD" target="_blank" rel="noopener">Feds arrest man in connection with ICE office bombing in Atlanta</a> <i>Báo chí · washingtontimes.com</i></li></ul><div class="nd">Báo đã đưa: fox13news.com, fox9.com, foxnews.com, rochesterfirst.com, washingtontimes.com</div>
+  </div>
+</div>
+<div class="card" data-cat="politics" data-plat="press" data-txt="voting in the 2026 midterms? here is what to know heraldonline.com">
+  <div class="rank">#7</div>
+  
+  <div class="body">
+    <div class="top"><span class="sc">81.3</span><span class="p" style="background:#238636">Báo chí</span><span class="p cat">Chính trị</span><span class="p md">bài báo</span><span class="p nw">5 báo</span></div>
+    <div class="tt"><a href="https://www.heraldonline.com/news/nation-world/national/article317759480.html" target="_blank" rel="noopener">Voting in the 2026 midterms? Here is what to know</a></div>
+    <div class="meta">⏱ 12.0h</div>
+    <div class="au">heraldonline.com</div><ul class="also"><li><a href="https://suffolktimes.timesreview.com/2026/10/heres-what-you-need-to-know-before-going-to-the-polls-as-early-voting-begins/" target="_blank" rel="noopener">Election 2026: Here's what you need to know before going to the ...</a> <i>Báo chí · suffolktimes.timesreview.com</i></li><li><a href="https://www.michiganpublic.org/politics-government/2026-10-24/early-voting-in-michigan-has-begun-for-the-2026-election-heres-what-to-know" target="_blank" rel="noopener">Early voting in Michigan 2026: What you need to know</a> <i>Báo chí · michiganpublic.org</i></li><li><a href="https://www.kentucky.com/news/nation-world/national/article317759480.html" target="_blank" rel="noopener">Voting in the 2026 midterms? Here is what to know</a> <i>Báo chí · kentucky.com</i></li><li><a href="https://www.upressonline.com/2026/10/midterm-elections-are-here-where-fau-students-can-cast-their-ballots/" target="_blank" rel="noopener">Midterm elections are here: Where FAU students can cast their ballots</a> <i>Báo chí · upressonline.com</i></li></ul><div class="nd">Báo đã đưa: heraldonline.com, kentucky.com, michiganpublic.org, suffolktimes.timesreview.com, upressonline.com</div>
+  </div>
+</div>
+<div class="card" data-cat="politics" data-plat="press" data-txt="trump's tariffs on canada put dairy, lumber and market access at risk foxnews.com">
+  <div class="rank">#8</div>
+  
+  <div class="body">
+    <div class="top"><span class="sc">78.5</span><span class="p" style="background:#238636">Báo chí</span><span class="p cat">Chính trị</span><span class="p md">bài báo</span><span class="p nw">4 báo</span></div>
+    <div class="tt"><a href="https://www.foxnews.com/politics/canada-feeling-pain-trumps-tariffs-trade-fight-didnt-start-overnight" target="_blank" rel="noopener">Trump's tariffs on Canada put dairy, lumber and market access at risk</a></div>
+    <div class="meta">⏱ 2.0h</div>
+    <div class="au">foxnews.com</div><ul class="also"><li><a href="https://www.cbc.ca/news/world/obama-trump-canada-tariffs-9.7394871" target="_blank" rel="noopener">Obama mocks Trump for hitting Canada with tariffs</a> <i>Báo chí · cbc.ca</i></li><li><a href="https://www.dw.com/en/trump-eases-canada-tariffs-ahead-of-us-midterms/a-79747634" target="_blank" rel="noopener">Trump eases some Canada tariffs ahead of US midterms</a> <i>Báo chí · dw.com</i></li><li><a href="https://finance.yahoo.com/economy/policy/articles/trump-cutting-tariffs-canada-11-114043854.html" target="_blank" rel="noopener">Trump Is Cutting Tariffs on Canada, 11 Days Before the Midterms</a> <i>Báo chí · finance.yahoo.com</i></li></ul><div class="nd">Báo đã đưa: cbc.ca, dw.com, finance.yahoo.com, foxnews.com</div>
+  </div>
+</div>
+<div class="card" data-cat="politics" data-plat="press" data-txt="soldiers guard center of milan as thousands of protesters march ... nbcnews.com">
+  <div class="rank">#9</div>
+  
+  <div class="body">
+    <div class="top"><span class="sc">76.5</span><span class="p" style="background:#238636">Báo chí</span><span class="p cat">Chính trị</span><span class="p md">bài báo</span><span class="p nw">3 báo</span></div>
+    <div class="tt"><a href="https://www.nbcnews.com/world/italy/soldiers-guard-center-milan-thousands-protesters-march-european-cities-rcna605405" target="_blank" rel="noopener">Soldiers guard center of Milan as thousands of protesters march ...</a></div>
+    <div class="meta">⏱ 4.0h</div>
+    <div class="au">nbcnews.com</div><ul class="also"><li><a href="https://www.pbs.org/newshour/world/soldiers-guard-center-of-milan-as-thousands-of-protesters-march-in-cities-across-europe" target="_blank" rel="noopener">Soldiers guard center of Milan as thousands of protesters march in ...</a> <i>Báo chí · pbs.org</i></li><li><a href="https://www.union-bulletin.com/news/world/soldiers-guard-center-of-milan-as-thousands-of-protesters-march-across-european-cities/article_348318b4-7ec9-527c-8b55-a7a9469d3cf7.html" target="_blank" rel="noopener">Soldiers guard center of Milan as thousands of protesters march ...</a> <i>Báo chí · union-bulletin.com</i></li></ul><div class="nd">Báo đã đưa: nbcnews.com, pbs.org, union-bulletin.com</div>
+  </div>
+</div>
+<div class="card" data-cat="cops" data-plat="press" data-txt="fbi arrests cia contractor for allegedly leaking classified material washingtonexaminer.com">
+  <div class="rank">#10</div>
+  
+  <div class="body">
+    <div class="top"><span class="sc">75.8</span><span class="p" style="background:#238636">Báo chí</span><span class="p cat cops">Cops</span><span class="p md">bài báo</span><span class="p nw">6 báo</span></div>
+    <div class="tt"><a href="https://www.washingtonexaminer.com/news/justice/4778364/fbi-arrests-cia-contractor-allegedly-leaking-classified-material/?srsltid=AYCX9vL__Prw6RU7bAaEOEEIxi3RPIGJk6q6VEVD9T_gl2BpYHlrc9Zo" target="_blank" rel="noopener">FBI arrests CIA contractor for allegedly leaking classified material</a></div>
+    <div class="meta">⏱ 8.0h</div>
+    <div class="au">washingtonexaminer.com</div><ul class="also"><li><a href="https://wgntv.com/politics-3/government-contractor-arrested-for-allegedly-leaking-national-defense-information/" target="_blank" rel="noopener">Government contractor arrested for allegedly leaking national ...</a> <i>Báo chí · wgntv.com</i></li><li><a href="https://fox8.com/news/nexstar-media-wire/government-contractor-arrested-for-allegedly-leaking-national-defense-information/" target="_blank" rel="noopener">Government contractor arrested for allegedly leaking national ...</a> <i>Báo chí · fox8.com</i></li><li><a href="https://fox59.com/news/national-world/government-contractor-arrested-for-allegedly-leaking-national-defense-information/" target="_blank" rel="noopener">Government contractor arrested for allegedly leaking national ...</a> <i>Báo chí · fox59.com</i></li><li><a href="https://www.mercedsunstar.com/news/nation-world/national/article317757937.html" target="_blank" rel="noopener">US accuses government contractor of leaking classified info to ...</a> <i>Báo chí · mercedsunstar.com</i></li></ul><div class="nd">Báo đã đưa: fox59.com, fox8.com, hindustantimes.com, mercedsunstar.com, washingtonexaminer.com, wgntv.com</div>
+  </div>
+</div>
+<div class="card" data-cat="cops" data-plat="press" data-txt="police officers resign after fatal shooting of black child in mississippi reuters.com">
+  <div class="rank">#11</div>
+  
+  <div class="body">
+    <div class="top"><span class="sc">74.4</span><span class="p" style="background:#238636">Báo chí</span><span class="p cat cops">Cops</span><span class="p md">bài báo</span><span class="p nw">6 báo</span></div>
+    <div class="tt"><a href="https://www.reuters.com/world/us/police-officers-resign-after-fatal-shooting-of-black-child-mississippi-2026-10-24/" target="_blank" rel="noopener">Police officers resign after fatal shooting of Black child in Mississippi</a></div>
+    <div class="meta">⏱ 9.0h</div>
+    <div class="au">reuters.com</div><ul class="also"><li><a href="https://ktul.com/news/nation-world/mississippi-senatobia-officer-resigns-after-bodycam-video-shows-him-fire-into-car-killing-1-year-old-kohen-wiley-walmart-theft-diapers-bureau-of-investigation-attorney-general-public-safety-civil-rights-attorney-ben-crump" target="_blank" rel="noopener">Mississippi officer resigns after bodycam shows him fire into car ...</a> <i>Báo chí · ktul.com</i></li><li><a href="https://www.complex.com/life/a/bernadette-giacomazzo/kohen-wiley-shooting-cop-resigns" target="_blank" rel="noopener">Mississippi Cop Resigns Days After Being Cleared in Fatal Shooting ...</a> <i>Báo chí · complex.com</i></li><li><a href="https://santamariatimes.com/ap/national/police-officer-who-shot-and-killed-1-year-old-boy-in-mississippi-has-resigned-senatobia/article_f5727955-3315-54f9-a64b-9bd26e690b79.html" target="_blank" rel="noopener">Police officer who shot and killed 1-year-old boy in Mississippi has ...</a> <i>Báo chí · santamariatimes.com</i></li><li><a href="https://www.usnews.com/news/top-news/articles/2026-10-23/police-officers-resign-after-fatal-shooting-of-black-child-in-mississippi" target="_blank" rel="noopener">Police Officers Resign After Fatal Shooting of Black Child in ...</a> <i>Báo chí · usnews.com</i></li></ul><div class="nd">Báo đã đưa: arabnews.com, complex.com, ktul.com, reuters.com, santamariatimes.com, usnews.com</div>
+  </div>
+</div>
+<div class="card" data-cat="politics" data-plat="press" data-txt="how democrats could win the house, how republicans could hold on nbcnews.com">
+  <div class="rank">#12</div>
+  
+  <div class="body">
+    <div class="top"><span class="sc">72.5</span><span class="p" style="background:#238636">Báo chí</span><span class="p cat">Chính trị</span><span class="p md">bài báo</span><span class="p nw">3 báo</span></div>
+    <div class="tt"><a href="https://www.nbcnews.com/politics/2026-election/house-majority-math-democrats-win-republicans-scenarios-rcna604404" target="_blank" rel="noopener">How Democrats could win the House, how Republicans could hold on</a></div>
+    <div class="meta">⏱ 6.0h</div>
+    <div class="au">nbcnews.com</div><ul class="also"><li><a href="https://www.bloomberg.com/news/articles/2026-10-24/democrats-midterm-map-expands-in-warning-sign-for-republicans" target="_blank" rel="noopener">Democrats' Midterm Map Expands in Warning Sign for Republicans</a> <i>Báo chí · bloomberg.com</i></li><li><a href="https://kdhnews.com/news/politics/democrats-midterm-map-expands-in-warning-sign-for-republicans/article_34177dea-cab5-530c-b9b6-4c71639b8f85.html" target="_blank" rel="noopener">Democrats' midterm map expands in warning sign for Republicans</a> <i>Báo chí · kdhnews.com</i></li></ul><div class="nd">Báo đã đưa: bloomberg.com, kdhnews.com, nbcnews.com</div>
+  </div>
+</div>
+<div class="card" data-cat="politics" data-plat="press" data-txt="tracking the early vote: 2026 midterm election battleground states nytimes.com">
+  <div class="rank">#13</div>
+  
+  <div class="body">
+    <div class="top"><span class="sc">71.7</span><span class="p" style="background:#238636">Báo chí</span><span class="p cat">Chính trị</span><span class="p md">bài báo</span><span class="p nw">3 báo</span></div>
+    <div class="tt"><a href="https://www.nytimes.com/interactive/2026/us/elections/midterm-elections-early-voting-tracker-battleground-states.html" target="_blank" rel="noopener">Tracking the Early Vote: 2026 Midterm Election Battleground States</a></div>
+    <div class="meta">⏱ 4.0h</div>
+    <div class="au">nytimes.com</div><ul class="also"><li><a href="https://thehill.com/homenews/campaign/6169626-early-voting-battleground-states-democrats-republicans/" target="_blank" rel="noopener">Early voting surge in battleground states fuels Democrats' hopes</a> <i>Báo chí · thehill.com</i></li><li><a href="https://www.natesilver.net/p/nate-silver-2026-midterm-election-polls-model" target="_blank" rel="noopener">2026 Midterm Election Forecast: Senate &amp; House</a> <i>Báo chí · natesilver.net</i></li></ul><div class="nd">Báo đã đưa: natesilver.net, nytimes.com, thehill.com</div>
+  </div>
+</div>
+<div class="card" data-cat="cops" data-plat="press" data-txt="bodycam footage shows man shot, killed by phoenix police was ... ktar.com">
+  <div class="rank">#14</div>
+  
+  <div class="body">
+    <div class="top"><span class="sc">70.7</span><span class="p" style="background:#238636">Báo chí</span><span class="p cat cops">Cops</span><span class="p md">bài báo</span><span class="p nw">3 báo</span></div>
+    <div class="tt"><a href="https://ktar.com/arizona-news/bodycam-footage-man-killed-police-south-phoenix-armed-bb-gun" target="_blank" rel="noopener">Bodycam footage shows man shot, killed by Phoenix police was ...</a></div>
+    <div class="meta">👁 654 · ⏱ 2.0h</div>
+    <div class="au">ktar.com</div><ul class="also"><li><a href="https://www.boston25news.com/news/bodycam-footage-shows-teen-accused-carrying-firearm-run-abington-police/70bb293b-8f43-43c1-a1c1-7662cddeb850/" target="_blank" rel="noopener">Bodycam footage shows teen accused of carrying firearm run from ...</a> <i>Báo chí · boston25news.com</i></li><li><a href="https://www.wpri.com/news/local-news/providence/bodycam-officers-arrest-suspect-stabbing-mother-toddler/" target="_blank" rel="noopener">Bodycam video shows arrest of man charged with stabbing mother ...</a> <i>Báo chí · wpri.com</i></li></ul><div class="nd">Báo đã đưa: boston25news.com, ktar.com, wpri.com</div>
+  </div>
+</div>
+<div class="card" data-cat="cops" data-plat="press" data-txt="highland county deputies search for suspect in fatal shooting on ... abc6onyourside.com">
+  <div class="rank">#15</div>
+  
+  <div class="body">
+    <div class="top"><span class="sc">69.9</span><span class="p" style="background:#238636">Báo chí</span><span class="p cat cops">Cops</span><span class="p md">bài báo</span><span class="p nw">4 báo</span></div>
+    <div class="tt"><a href="https://abc6onyourside.com/news/local/highland-county-deputies-search-for-suspect-in-fatal-shooting-on-state-route-72-cassen-kelso-conaway-20-year-old" target="_blank" rel="noopener">Highland County deputies search for suspect in fatal shooting on ...</a></div>
+    <div class="meta">⏱ 3.0h</div>
+    <div class="au">abc6onyourside.com</div><ul class="also"><li><a href="https://www.wthr.com/article/news/crime/suspect-arrested-shootout-tipton-county-indiana-deputies-swat-elwood-100-w-north-b-street/531-aa2eb70c-d381-4316-b7d2-e77ba3538786" target="_blank" rel="noopener">Suspect arrested after shootout with Tipton County deputies, brief ...</a> <i>Báo chí · wthr.com</i></li><li><a href="https://dayton247now.com/news/local/fairfield-township-homicide-suspect-search-highland-county-sheriff-investigation-ohio-state-route-72-stowe-road-cincinnati-clinton-county-border-swat-team-heavy-police-presence-ohio-bureau-criminal-investigation?teaserSource=trending" target="_blank" rel="noopener">Suspect arrested in connection to Highland County homicide ...</a> <i>Báo chí · dayton247now.com</i></li><li><a href="https://www.wlwt.com/article/highland-county-ohio-state-route-72-homicide-investigation/74226519" target="_blank" rel="noopener">Deputies: Suspect in custody after deadly shooting in Highland County</a> <i>Báo chí · wlwt.com</i></li></ul><div class="nd">Báo đã đưa: abc6onyourside.com, dayton247now.com, wlwt.com, wthr.com</div>
+  </div>
+</div>
+<div class="card" data-cat="politics" data-plat="press" data-txt="trump casts early in-person ballot after attacks on mail voting bloomberg.com">
+  <div class="rank">#16</div>
+  
+  <div class="body">
+    <div class="top"><span class="sc">68.7</span><span class="p" style="background:#238636">Báo chí</span><span class="p cat">Chính trị</span><span class="p md">bài báo</span><span class="p nw">3 báo</span></div>
+    <div class="tt"><a href="https://www.bloomberg.com/news/articles/2026-10-24/trump-casts-early-in-person-ballot-after-attacks-on-mail-voting" target="_blank" rel="noopener">Trump Casts Early In-Person Ballot After Attacks on Mail Voting</a></div>
+    <div class="meta">⏱ 3.0h</div>
+    <div class="au">bloomberg.com</div><ul class="also"><li><a href="https://www.bridgedetroit.com/election-2026-early-in-person-voting-begins-in-detroit-what-to-know/" target="_blank" rel="noopener">Election 2026: Early in-person voting begins in Detroit. What to know.</a> <i>Báo chí · bridgedetroit.com</i></li><li><a href="https://www.pbs.org/newshour/politics/trump-casts-his-midterm-ballot-early-in-florida" target="_blank" rel="noopener">Trump casts his midterm ballot early in Florida</a> <i>Báo chí · pbs.org</i></li></ul><div class="nd">Báo đã đưa: bloomberg.com, bridgedetroit.com, pbs.org</div>
+  </div>
+</div>
+<div class="card" data-cat="politics" data-plat="press" data-txt="iran has ramped up efforts to target us personnel, intelligence ... reuters.com">
+  <div class="rank">#17</div>
+  
+  <div class="body">
+    <div class="top"><span class="sc">67.7</span><span class="p" style="background:#238636">Báo chí</span><span class="p cat">Chính trị</span><span class="p md">bài báo</span><span class="p nw">3 báo</span></div>
+    <div class="tt"><a href="https://www.reuters.com/world/middle-east/iran-has-ramped-up-efforts-target-us-personnel-intelligence-memo-warns-2026-10-24/" target="_blank" rel="noopener">Iran has ramped up efforts to target US personnel, intelligence ...</a></div>
+    <div class="meta">⏱ 2.0h</div>
+    <div class="au">reuters.com</div><ul class="also"><li><a href="https://www.cbsnews.com/news/iran-target-u-s-personnel/" target="_blank" rel="noopener">Iran has &quot;increased efforts to target U.S. personnel,&quot; intel chief warns</a> <i>Báo chí · cbsnews.com</i></li><li><a href="https://www.scrippsnews.com/us-news/iran-war/new-memo-to-secretary-marco-rubio-warns-iran-is-working-to-target-us-personnel" target="_blank" rel="noopener">US intelligence warns Iran has advanced plots to target American ...</a> <i>Báo chí · scrippsnews.com</i></li></ul><div class="nd">Báo đã đưa: cbsnews.com, reuters.com, scrippsnews.com</div>
+  </div>
+</div>
+<div class="card" data-cat="politics" data-plat="press" data-txt="president trump headlines midterm rally speech at fgcu's alico ... gulfcoastnewsnow.com">
+  <div class="rank">#18</div>
+  
+  <div class="body">
+    <div class="top"><span class="sc">67.0</span><span class="p" style="background:#238636">Báo chí</span><span class="p cat">Chính trị</span><span class="p md">bài báo</span><span class="p nw">4 báo</span></div>
+    <div class="tt"><a href="https://www.gulfcoastnewsnow.com/article/trump-rally-fort-myers-fgcu-lee-county/74229859" target="_blank" rel="noopener">President Trump headlines midterm rally speech at FGCU's Alico ...</a></div>
+    <div class="meta">⏱ 4.0h</div>
+    <div class="au">gulfcoastnewsnow.com</div><ul class="also"><li><a href="https://www.fox35orlando.com/news/president-donald-trump-attend-midterm-election-rally-daytona-beach-gop-says" target="_blank" rel="noopener">President Donald Trump to attend midterm election rally in Daytona ...</a> <i>Báo chí · fox35orlando.com</i></li><li><a href="https://www.winknews.com/news/southwest_florida/president-trump-wraps-up-fort-myers-rally-ahead-of-midterm-elections-see-the-highlights/article_59af061e-066f-4037-a15e-acef3275bceb.html" target="_blank" rel="noopener">President Trump wraps up Fort Myers rally ahead of midterm elections</a> <i>Báo chí · winknews.com</i></li><li><a href="https://events.gop.com/events/midterm-rally-in-lubbock-texas-president-donald-j-trump-djt47" target="_blank" rel="noopener">Midterm Rally in Lubbock, Texas featuring President Donald J. Trump</a> <i>Báo chí · events.gop.com</i></li></ul><div class="nd">Báo đã đưa: events.gop.com, fox35orlando.com, gulfcoastnewsnow.com, winknews.com</div>
+  </div>
+</div>
+<div class="card" data-cat="cops" data-plat="press" data-txt="suspect arrested, charged in fatal shooting at 5317 harrisburg ... bereavision.tv">
+  <div class="rank">#19</div>
+  
+  <div class="body">
+    <div class="top"><span class="sc">66.1</span><span class="p" style="background:#238636">Báo chí</span><span class="p cat cops">Cops</span><span class="p md">bài báo</span><span class="p nw">4 báo</span></div>
+    <div class="tt"><a href="https://bereavision.tv/suspect-arrested-charged-in-fatal-shooting-at-5317-harrisburg-boulevard/" target="_blank" rel="noopener">Suspect Arrested, Charged in Fatal Shooting at 5317 Harrisburg ...</a></div>
+    <div class="meta">⏱ 3.0h</div>
+    <div class="au">bereavision.tv</div><ul class="also"><li><a href="https://www.yahoo.com/news/articles/suspect-arrested-connect-deadly-shooting-212947186.html" target="_blank" rel="noopener">Suspect arrested in connect to deadly shooting</a> <i>Báo chí · yahoo.com</i></li><li><a href="https://accessnorthga.com/news/shooting-suspect-arrested-in-rabun-county-on-murder-charges-tuesday" target="_blank" rel="noopener">Shooting suspect arrested in Rabun County on murder charges ...</a> <i>Báo chí · accessnorthga.com</i></li><li><a href="https://www.fox5atlanta.com/news/suspect-2024-ga-400-road-rage-shooting-arrested-new-york-city" target="_blank" rel="noopener">Suspect in 2024 GA 400 road rage shooting arrested in New York City</a> <i>Báo chí · fox5atlanta.com</i></li></ul><div class="nd">Báo đã đưa: accessnorthga.com, bereavision.tv, fox5atlanta.com, yahoo.com</div>
+  </div>
+</div>
+<div class="card" data-cat="politics" data-plat="press" data-txt="arkansas governor election 2026: latest polls nytimes.com">
+  <div class="rank">#20</div>
+  
+  <div class="body">
+    <div class="top"><span class="sc">64.9</span><span class="p" style="background:#238636">Báo chí</span><span class="p cat">Chính trị</span><span class="p md">bài báo</span><span class="p nw">2 báo</span></div>
+    <div class="tt"><a href="https://www.nytimes.com/interactive/polls/arkansas-governor-election-polls-2026.html" target="_blank" rel="noopener">Arkansas Governor Election 2026: Latest Polls</a></div>
+    <div class="meta">⏱ 1.0h</div>
+    <div class="au">nytimes.com</div><ul class="also"><li><a href="https://www.natesilver.net/p/iran-war-polls-popularity-approval" target="_blank" rel="noopener">Iran War support: Latest Polls</a> <i>Báo chí · natesilver.net</i></li></ul><div class="nd">Báo đã đưa: natesilver.net, nytimes.com</div>
+  </div>
+</div>
+<div class="card" data-cat="politics" data-plat="press" data-txt="voters are begging trump to end the war in iran motherjones.com">
+  <div class="rank">#21</div>
+  
+  <div class="body">
+    <div class="top"><span class="sc">64.2</span><span class="p" style="background:#238636">Báo chí</span><span class="p cat">Chính trị</span><span class="p md">bài báo</span><span class="p nw">3 báo</span></div>
+    <div class="tt"><a href="https://www.motherjones.com/politics/2026/10/trump-iran-war-ap-norc-70-percent-poll/" target="_blank" rel="noopener">Voters Are Begging Trump to End the War in Iran</a></div>
+    <div class="meta">⏱ 5.0h</div>
+    <div class="au">motherjones.com</div><ul class="also"><li><a href="https://www.arabnews.com/middle-east/iran-president-says-many-struggling-for-food-as-war-bites-3008077" target="_blank" rel="noopener">Iran president says many struggling for food as war bites</a> <i>Báo chí · arabnews.com</i></li><li><a href="https://www.dw.com/en/iran-conflict-could-a-new-phase-of-the-war-be-imminent/video-79749442" target="_blank" rel="noopener">Iran conflict: Could a new phase of the war be imminent?</a> <i>Báo chí · dw.com</i></li></ul><div class="nd">Báo đã đưa: arabnews.com, dw.com, motherjones.com</div>
+  </div>
+</div>
+<div class="card" data-cat="politics" data-plat="press" data-txt="voter fraud escalation laist.com">
+  <div class="rank">#22</div>
+  
+  <div class="body">
+    <div class="top"><span class="sc">63.4</span><span class="p" style="background:#238636">Báo chí</span><span class="p cat">Chính trị</span><span class="p md">bài báo</span><span class="p nw">3 báo</span></div>
+    <div class="tt"><a href="https://laist.com/brief/news/politics/doj-orders-some-california-counties-to-verify-ballots-in-48-hours" target="_blank" rel="noopener">Voter fraud escalation</a></div>
+    <div class="meta">⏱ 1.0h</div>
+    <div class="au">laist.com</div><ul class="also"><li><a href="https://www.scrippsnews.com/investigations/ice-inc/judge-reins-in-armed-ice-agents-investigating-voter-fraud" target="_blank" rel="noopener">Judge reins in armed ICE agents investigating voter fraud</a> <i>Báo chí · scrippsnews.com</i></li><li><a href="https://flvoicenews.com/fbis-historic-week-of-crackdowns-noncitizen-voter-fraud-busted-ex-federal-agents-charged-powerful-virginia-senator-arrested/" target="_blank" rel="noopener">FBI's historic week of crackdowns: noncitizen voter fraud busted, ex ...</a> <i>Báo chí · flvoicenews.com</i></li></ul><div class="nd">Báo đã đưa: flvoicenews.com, laist.com, scrippsnews.com</div>
+  </div>
+</div>
+<div class="card" data-cat="politics" data-plat="press" data-txt="ohio governor race shifts in favor of democrat after ramaswamy ad ... washingtonexaminer.com">
+  <div class="rank">#23</div>
+  
+  <div class="body">
+    <div class="top"><span class="sc">62.7</span><span class="p" style="background:#238636">Báo chí</span><span class="p cat">Chính trị</span><span class="p md">bài báo</span><span class="p nw">4 báo</span></div>
+    <div class="tt"><a href="https://www.washingtonexaminer.com/news/campaigns/state/4778332/ohio-governor-race-shifts-favor-of-democrat-ramaswamy-ad/?srsltid=AYCX9vIU09eKzY-iVu7dWPsZYgvH6NA9g0wupNl49UAe2xJXUVObL3pB" target="_blank" rel="noopener">Ohio governor race shifts in favor of Democrat after Ramaswamy ad ...</a></div>
+    <div class="meta">⏱ 21.0h</div>
+    <div class="au">washingtonexaminer.com</div><ul class="also"><li><a href="https://www.wtrf.com/top-stories/fallout-continues-from-controversial-ad-in-ohio-governors-race/" target="_blank" rel="noopener">Fallout continues from controversial ad in Ohio governor's race</a> <i>Báo chí · wtrf.com</i></li><li><a href="https://www.wavy.com/news/national/cook-political-report-shifts-ohio-governors-race-from-toss-up-to-lean-democrat/" target="_blank" rel="noopener">Cook Political Report shifts Ohio governor's race from toss</a> <i>Báo chí · wavy.com</i></li><li><a href="https://www.wtnh.com/news/national/cook-political-report-shifts-ohio-governors-race-from-toss-up-to-lean-democrat/" target="_blank" rel="noopener">Cook Political Report shifts Ohio governor's race from toss</a> <i>Báo chí · wtnh.com</i></li></ul><div class="nd">Báo đã đưa: washingtonexaminer.com, wavy.com, wtnh.com, wtrf.com</div>
+  </div>
+</div>
+<div class="card" data-cat="politics" data-plat="press" data-txt="german man arrested for allegedly driving american teen girl to die ... cbsnews.com">
+  <div class="rank">#24</div>
+  
+  <div class="body">
+    <div class="top"><span class="sc">62.0</span><span class="p" style="background:#238636">Báo chí</span><span class="p cat">Chính trị</span><span class="p md">bài báo</span><span class="p nw">2 báo</span></div>
+    <div class="tt"><a href="https://www.cbsnews.com/news/german-man-arrested-teen-suicide-764/" target="_blank" rel="noopener">German man arrested for allegedly driving American teen girl to die ...</a></div>
+    <div class="meta">⏱ 7.0h</div>
+    <div class="au">cbsnews.com</div><ul class="also"><li><a href="https://abc7chicago.com/story/german-teen-arrested-suspicion-murder-connection-fort-wayne-indiana-girls-death/19975446/" target="_blank" rel="noopener">German teen arrested on suspicion of murder in connection with Fort ...</a> <i>Báo chí · abc7chicago.com</i></li></ul><div class="nd">Báo đã đưa: abc7chicago.com, cbsnews.com</div>
+  </div>
+</div>
+<div class="card" data-cat="politics" data-plat="press" data-txt="obama describes trump as an agent of 'chaos and cruelty' in ... nbcnews.com">
+  <div class="rank">#25</div>
+  
+  <div class="body">
+    <div class="top"><span class="sc">61.2</span><span class="p" style="background:#238636">Báo chí</span><span class="p cat">Chính trị</span><span class="p md">bài báo</span><span class="p nw">2 báo</span></div>
+    <div class="tt"><a href="https://www.nbcnews.com/politics/2026-election/obama-trump-chaos-cruelty-midterm-election-pitch-acton-ramaswamy-rcna605223" target="_blank" rel="noopener">Obama describes Trump as an agent of 'chaos and cruelty' in ...</a></div>
+    <div class="meta">⏱ 2.0h</div>
+    <div class="au">nbcnews.com</div><ul class="also"><li><a href="https://www.wral.com/news/ap/bbaa0-obama-in-ohio-assails-cruelty-and-indecency-from-trump-and-his-allies-in-the-midterm-campaign/" target="_blank" rel="noopener">Obama, in Ohio, assails 'cruelty' and indecency from Trump and his ...</a> <i>Báo chí · wral.com</i></li></ul><div class="nd">Báo đã đưa: nbcnews.com, wral.com</div>
+  </div>
+</div>
+<div class="card" data-cat="politics" data-plat="press" data-txt="trump administration demands county election officials identify ... reuters.com">
+  <div class="rank">#26</div>
+  
+  <div class="body">
+    <div class="top"><span class="sc">60.4</span><span class="p" style="background:#238636">Báo chí</span><span class="p cat">Chính trị</span><span class="p md">bài báo</span><span class="p nw">2 báo</span></div>
+    <div class="tt"><a href="https://www.reuters.com/legal/government/trump-administration-demands-county-election-officials-identify-noncitizen-2026-10-24/" target="_blank" rel="noopener">Trump administration demands county election officials identify ...</a></div>
+    <div class="meta">⏱ 3.0h</div>
+    <div class="au">reuters.com</div><ul class="also"><li><a href="https://www.bnd.com/news/nation-world/national/article317763812.html" target="_blank" rel="noopener">Trump administration demands county election officials identify ...</a> <i>Báo chí · bnd.com</i></li></ul><div class="nd">Báo đã đưa: bnd.com, reuters.com</div>
+  </div>
+</div>
+<div class="card" data-cat="politics" data-plat="press" data-txt="november 3, 2026 – general election &amp; joint election dallascountyvotes.org">
+  <div class="rank">#27</div>
+  
+  <div class="body">
+    <div class="top"><span class="sc">59.6</span><span class="p" style="background:#238636">Báo chí</span><span class="p cat">Chính trị</span><span class="p md">bài báo</span><span class="p nw">3 báo</span></div>
+    <div class="tt"><a href="https://www.dallascountyvotes.org/event_type/november-3-2026-general-and-joint-election/" target="_blank" rel="noopener">November 3, 2026 – General Election &amp; Joint Election</a></div>
+    <div class="meta">⏱ 4.0h</div>
+    <div class="au">dallascountyvotes.org</div><ul class="also"><li><a href="https://en.baochinhphu.vn/full-joint-statement-on-outcomes-of-general-secretary-president-to-lams-official-visit-to-belgium-111261024213329682.htm" target="_blank" rel="noopener">Full Joint Statement on outcomes of General Secretary, President To ...</a> <i>Báo chí · en.baochinhphu.vn</i></li><li><a href="https://oregoncapitalchronicle.com/voter-guides/contests/2026-general-u-s-senate/" target="_blank" rel="noopener">U.S. Senate | Voter Guide: 2026 General Election • Oregon</a> <i>Báo chí · oregoncapitalchronicle.com</i></li></ul><div class="nd">Báo đã đưa: dallascountyvotes.org, en.baochinhphu.vn, oregoncapitalchronicle.com</div>
+  </div>
+</div>
+<div class="card" data-cat="politics" data-plat="press" data-txt="barack obama slams donald trump's policies at ohio rally thehill.com">
+  <div class="rank">#28</div>
+  
+  <div class="body">
+    <div class="top"><span class="sc">58.9</span><span class="p" style="background:#238636">Báo chí</span><span class="p cat">Chính trị</span><span class="p md">bài báo</span><span class="p nw">2 báo</span></div>
+    <div class="tt"><a href="https://thehill.com/homenews/6170280-obama-jokes-trump-ohio-midterm-rally/" target="_blank" rel="noopener">Barack Obama slams Donald Trump's policies at Ohio rally</a></div>
+    <div class="meta">⏱ 3.0h</div>
+    <div class="au">thehill.com</div><ul class="also"><li><a href="https://www.ajc.com/politics/2026/10/donald-trump-georgia-gop-rally/" target="_blank" rel="noopener">3 questions ahead of Donald Trump's Georgia rally</a> <i>Báo chí · ajc.com</i></li></ul><div class="nd">Báo đã đưa: ajc.com, thehill.com</div>
+  </div>
+</div>
+<div class="card" data-cat="cops" data-plat="press" data-txt="man shot by police after allegedly pointing gun at philadelphia officers latency.6abc.com">
+  <div class="rank">#29</div>
+  
+  <div class="body">
+    <div class="top"><span class="sc">58.1</span><span class="p" style="background:#238636">Báo chí</span><span class="p cat cops">Cops</span><span class="p md">bài báo</span><span class="p nw">4 báo</span></div>
+    <div class="tt"><a href="https://latency.6abc.com/post/officer-involved-shooting-investigation-west-philadelphia/19973790/" target="_blank" rel="noopener">Man shot by police after allegedly pointing gun at Philadelphia officers</a></div>
+    <div class="meta">⏱ 2.0h</div>
+    <div class="au">latency.6abc.com</div><ul class="also"><li><a href="https://local21news.com/news/local/philadelphia-officer-who-was-shot-12-times-released-from-hospital-after-deadly-shooting-hector-rodriguez-shane-seiber-pennsylvania-pa" target="_blank" rel="noopener">Philadelphia officer who was shot 12 times released from hospital ...</a> <i>Báo chí · local21news.com</i></li><li><a href="https://6abc.com/post/officer-involved-shooting-investigation-west-philadelphia/19973790/" target="_blank" rel="noopener">Man shot by police after allegedly pointing gun at officers</a> <i>Báo chí · 6abc.com</i></li><li><a href="https://www.fox29.com/news/philadelphia-officer-shot-12-times-released-from-hospital-2-weeks-after-ambush" target="_blank" rel="noopener">Philadelphia officer shot 12 times released from hospital 2 weeks ...</a> <i>Báo chí · fox29.com</i></li></ul><div class="nd">Báo đã đưa: 6abc.com, fox29.com, latency.6abc.com, local21news.com</div>
+  </div>
+</div>
+<div class="card" data-cat="politics" data-plat="press" data-txt="why a blue wave might miss minnesota's senate race thehill.com">
+  <div class="rank">#30</div>
+  
+  <div class="body">
+    <div class="top"><span class="sc">57.1</span><span class="p" style="background:#238636">Báo chí</span><span class="p cat">Chính trị</span><span class="p md">bài báo</span><span class="p nw">3 báo</span></div>
+    <div class="tt"><a href="https://thehill.com/homenews/campaign/6169517-minnesota-senate-flanagan-tafoya/" target="_blank" rel="noopener">Why a blue wave might miss Minnesota's Senate race</a></div>
+    <div class="meta">⏱ 14.0h</div>
+    <div class="au">thehill.com</div><ul class="also"><li><a href="https://www.telegraphherald.com/news/national_world/article_51f00049-7a19-46ca-8b4d-dcc80310615d.html" target="_blank" rel="noopener">Trump says he ordered lawsuit over Alaska's U.S. Senate race</a> <i>Báo chí · telegraphherald.com</i></li><li><a href="https://www.thetimes.com/us/american-politics/article/michigan-senate-polls-2026-race-abdul-el-sayed-mike-rogers-nk8vjhhtf" target="_blank" rel="noopener">Michigan Senate race polls: who will win the 2026 election?</a> <i>Báo chí · thetimes.com</i></li></ul><div class="nd">Báo đã đưa: telegraphherald.com, thehill.com, thetimes.com</div>
+  </div>
+</div>
+<div class="card" data-cat="politics" data-plat="press" data-txt="supreme court tosses restrictions on controversial federal voter ... thewellnews.com">
+  <div class="rank">#31</div>
+  
+  <div class="body">
+    <div class="top"><span class="sc">56.0</span><span class="p" style="background:#238636">Báo chí</span><span class="p cat">Chính trị</span><span class="p md">bài báo</span><span class="p nw">4 báo</span></div>
+    <div class="tt"><a href="https://www.thewellnews.com/supreme-court/supreme-court-tosses-restrictions-on-controversial-federal-voter-database/" target="_blank" rel="noopener">Supreme Court Tosses Restrictions on Controversial Federal Voter ...</a></div>
+    <div class="meta">⏱ 4.0h</div>
+    <div class="au">thewellnews.com</div><ul class="also"><li><a href="https://tucson.com/news/nation-world/government-politics/article_98c275af-b2da-5f65-b289-c3b169366cfe.html" target="_blank" rel="noopener">12 of the top cases on the US Supreme Court's docket this term</a> <i>Báo chí · tucson.com</i></li><li><a href="https://omaha.com/news/nation-world/government-politics/article_20f8fbed-dad2-5a6b-8bb4-2cd927d895c2.html" target="_blank" rel="noopener">12 of the top cases on the US Supreme Court's docket this term</a> <i>Báo chí · omaha.com</i></li><li><a href="https://www.democracydocket.com/news-alerts/arkansas-asks-supreme-court-to-revive-restrictive-voter-registration-rule/" target="_blank" rel="noopener">Arkansas asks Supreme Court to revive restrictive voter registration ...</a> <i>Báo chí · democracydocket.com</i></li></ul><div class="nd">Báo đã đưa: democracydocket.com, omaha.com, thewellnews.com, tucson.com</div>
+  </div>
+</div>
+<div class="card" data-cat="politics" data-plat="press" data-txt="a very suspicious indictment of two former fbi officials theatlantic.com">
+  <div class="rank">#32</div>
+  
+  <div class="body">
+    <div class="top"><span class="sc">55.2</span><span class="p" style="background:#238636">Báo chí</span><span class="p cat">Chính trị</span><span class="p md">bài báo</span><span class="p nw">3 báo</span></div>
+    <div class="tt"><a href="https://www.theatlantic.com/ideas/2026/10/fbi-indictments/689138/" target="_blank" rel="noopener">A Very Suspicious Indictment of Two Former FBI Officials</a></div>
+    <div class="meta">👁 12 · ⏱ 9.0h</div>
+    <div class="au">theatlantic.com</div><ul class="also"><li><a href="https://www.al.com/news/2026/10/2-ex-fbi-officials-charged-with-lying-about-involvement-in-investigation-into-hunter-bidens-laptop.html" target="_blank" rel="noopener">2 ex-FBI officials charged with lying about involvement in ...</a> <i>Báo chí · al.com</i></li><li><a href="https://www.allsides.com/story/criminal-justice-former-fbi-officials-charged-lying-congress-about-hunter-biden-laptop-investigation" target="_blank" rel="noopener">Former FBI Officials Charged With Lying to Congress About Hunter ...</a> <i>Báo chí · allsides.com</i></li></ul><div class="nd">Báo đã đưa: al.com, allsides.com, theatlantic.com</div>
+  </div>
+</div>
+<div class="card" data-cat="cops" data-plat="press" data-txt="'i'm just a carpenter from bend': father who killed silver rail school ... ijpr.org">
+  <div class="rank">#33</div>
+  
+  <div class="body">
+    <div class="top"><span class="sc">54.5</span><span class="p" style="background:#238636">Báo chí</span><span class="p cat cops">Cops</span><span class="p md">bài báo</span><span class="p nw">2 báo</span></div>
+    <div class="tt"><a href="https://www.ijpr.org/interviews/2026-10-24/im-just-a-carpenter-from-bend-father-who-killed-silver-rail-school-shooter-grapples-with-the-aftermath?_amp=true" target="_blank" rel="noopener">'I'm just a carpenter from Bend': Father who killed Silver Rail school ...</a></div>
+    <div class="meta">⏱ 9.0h</div>
+    <div class="au">ijpr.org</div><ul class="also"><li><a href="https://news.sky.com/story/father-who-stopped-oregon-school-shooting-describes-how-he-killed-gunman-and-his-guilt-over-those-who-died-13602933" target="_blank" rel="noopener">Father who stopped Oregon school shooting describes how he ...</a> <i>Báo chí · news.sky.com</i></li></ul><div class="nd">Báo đã đưa: ijpr.org, news.sky.com</div>
+  </div>
+</div>
+<div class="card" data-cat="politics" data-plat="press" data-txt="trump's border chief defends wall plans in texas' big bend apnews.com">
+  <div class="rank">#34</div>
+  
+  <div class="body">
+    <div class="top"><span class="sc">53.6</span><span class="p" style="background:#238636">Báo chí</span><span class="p cat">Chính trị</span><span class="p md">bài báo</span><span class="p nw">2 báo</span></div>
+    <div class="tt"><a href="https://apnews.com/article/border-immigration-big-bend-rodney-scott-wall-32734cc4aa2f83a7b3b23c81163d6fef" target="_blank" rel="noopener">Trump's border chief defends wall plans in Texas' Big Bend</a></div>
+    <div class="meta">⏱ 20.0h</div>
+    <div class="au">apnews.com</div><ul class="also"><li><a href="https://www.thehour.com/news/politics/article/ap-exclusive-trump-s-border-chief-defends-wall-22490537.php" target="_blank" rel="noopener">Trump's border chief defends wall plans in Texas' Big Bend</a> <i>Báo chí · thehour.com</i></li></ul><div class="nd">Báo đã đưa: apnews.com, thehour.com</div>
+  </div>
+</div>
+<div class="card" data-cat="politics" data-plat="press" data-txt="california democrats rally to 'deliver' on proposition 50. was it ... kqed.org">
+  <div class="rank">#35</div>
+  
+  <div class="body">
+    <div class="top"><span class="sc">52.8</span><span class="p" style="background:#238636">Báo chí</span><span class="p cat">Chính trị</span><span class="p md">bài báo</span><span class="p nw">2 báo</span></div>
+    <div class="tt"><a href="https://www.kqed.org/news/12106022/california-democrats-rally-to-deliver-on-proposition-50-was-it-really-needed" target="_blank" rel="noopener">California Democrats Rally to 'Deliver' on Proposition 50. Was It ...</a></div>
+    <div class="meta">⏱ 4.0h</div>
+    <div class="au">kqed.org</div><ul class="also"><li><a href="https://www.latimes.com/california/story/2026-10-24/aoc-newsom-jeffries-swing-through-california-to-help-democrats-in-tight-races" target="_blank" rel="noopener">AOC, Newsom, Jeffries swing through California to help Democrats ...</a> <i>Báo chí · latimes.com</i></li></ul><div class="nd">Báo đã đưa: kqed.org, latimes.com</div>
+  </div>
+</div>
+<div class="card" data-cat="cops" data-plat="press" data-txt="manhunt under way to find prisoner who absconded from medical ... theguardian.com">
+  <div class="rank">#36</div>
+  
+  <div class="body">
+    <div class="top"><span class="sc">52.1</span><span class="p" style="background:#238636">Báo chí</span><span class="p cat cops">Cops</span><span class="p md">bài báo</span><span class="p nw">1 báo</span></div>
+    <div class="tt"><a href="https://www.theguardian.com/uk-news/2026/oct/24/manhunt-under-way-to-find-prisoner-who-absconded-from-medical-facility" target="_blank" rel="noopener">Manhunt under way to find prisoner who absconded from medical ...</a></div>
+    <div class="meta">⏱ 6.0h</div>
+    <div class="au">theguardian.com</div><div class="nd">Báo đã đưa: theguardian.com</div>
+  </div>
+</div>
+<div class="card" data-cat="cops" data-plat="press" data-txt="homicide investigation: 1 dead after sw clt shooting qcnews.com">
+  <div class="rank">#37</div>
+  
+  <div class="body">
+    <div class="top"><span class="sc">51.3</span><span class="p" style="background:#238636">Báo chí</span><span class="p cat cops">Cops</span><span class="p md">bài báo</span><span class="p nw">3 báo</span></div>
+    <div class="tt"><a href="https://www.qcnews.com/crime-and-public-safety/one-dead-after-southwest-charlotte-shooting-homicide-investigation-underway/" target="_blank" rel="noopener">Homicide Investigation: 1 dead after SW CLT shooting</a></div>
+    <div class="meta">⏱ 13.0h</div>
+    <div class="au">qcnews.com</div><ul class="also"><li><a href="https://www.wftv.com/news/video-homicide-investigation-underway-clermont-sheriffs-office-says/7071c1a1-ab7d-4c5c-b481-d8addbf0700e/" target="_blank" rel="noopener">Homicide investigation underway in Clermont, sheriff's office says</a> <i>Báo chí · wftv.com</i></li><li><a href="https://wnegradio.com/walhalla-police-department-conducting-homicide-investigation/" target="_blank" rel="noopener">Walhalla Police Department Conducting Homicide Investigation</a> <i>Báo chí · wnegradio.com</i></li></ul><div class="nd">Báo đã đưa: qcnews.com, wftv.com, wnegradio.com</div>
+  </div>
+</div>
+<div class="card" data-cat="politics" data-plat="press" data-txt="trump revives idea of military intervention in cuba after iran apnews.com">
+  <div class="rank">#38</div>
+  
+  <div class="body">
+    <div class="top"><span class="sc">50.6</span><span class="p" style="background:#238636">Báo chí</span><span class="p cat">Chính trị</span><span class="p md">bài báo</span><span class="p nw">2 báo</span></div>
+    <div class="tt"><a href="https://apnews.com/article/donald-trump-cuba-venezuela-florida-3b33aab6719558e289632e974c7a82ad" target="_blank" rel="noopener">Trump revives idea of military intervention in Cuba after Iran</a></div>
+    <div class="meta">⏱ 23.0h</div>
+    <div class="au">apnews.com</div><ul class="also"><li><a href="https://www.nbcmiami.com/news/local/cuba/trump-at-south-florida-rally-revives-the-idea-of-military-intervention-in-cuba-after-iran/3877025/" target="_blank" rel="noopener">Trump at South Florida rally revives the idea of military intervention ...</a> <i>Báo chí · nbcmiami.com</i></li></ul><div class="nd">Báo đã đưa: apnews.com, nbcmiami.com</div>
+  </div>
+</div>
+<div class="card" data-cat="cops" data-plat="press" data-txt="man killed in early morning shooting in forsyth county myfox8.com">
+  <div class="rank">#39</div>
+  
+  <div class="body">
+    <div class="top"><span class="sc">49.8</span><span class="p" style="background:#238636">Báo chí</span><span class="p cat cops">Cops</span><span class="p md">bài báo</span><span class="p nw">1 báo</span></div>
+    <div class="tt"><a href="https://myfox8.com/news/north-carolina/winston-salem/man-killed-in-early-morning-shooting-in-forsyth-county/" target="_blank" rel="noopener">Man killed in early morning shooting in Forsyth County</a></div>
+    <div class="meta">⏱ 10.0h</div>
+    <div class="au">myfox8.com</div><div class="nd">Báo đã đưa: myfox8.com</div>
+  </div>
+</div>
+<div class="card" data-cat="cops" data-plat="press" data-txt="3 people injured, 1 critically, in shooting on west side abc7chicago.com">
+  <div class="rank">#40</div>
+  
+  <div class="body">
+    <div class="top"><span class="sc">49.1</span><span class="p" style="background:#238636">Báo chí</span><span class="p cat cops">Cops</span><span class="p md">bài báo</span><span class="p nw">1 báo</span></div>
+    <div class="tt"><a href="https://abc7chicago.com/post/chicago-shooting-3-people-shot-1-critically-injured-west-flournoy-street-side-police-say/19976502/" target="_blank" rel="noopener">3 people injured, 1 critically, in shooting on West Side</a></div>
+    <div class="meta">⏱ 2.0h</div>
+    <div class="au">abc7chicago.com</div><div class="nd">Báo đã đưa: abc7chicago.com</div>
+  </div>
+</div>
+<div class="card" data-cat="cops" data-plat="press" data-txt="cornhole tournament held in honor of lewiston mass shooting victims wmtw.com">
+  <div class="rank">#41</div>
+  
+  <div class="body">
+    <div class="top"><span class="sc">48.3</span><span class="p" style="background:#238636">Báo chí</span><span class="p cat cops">Cops</span><span class="p md">bài báo</span><span class="p nw">1 báo</span></div>
+    <div class="tt"><a href="https://www.wmtw.com/article/cornhole-tournament-held-at-just-in-time-recreation-in-honor-of-lewiston-mass-shooting-victims/74238441" target="_blank" rel="noopener">Cornhole tournament held in honor of Lewiston mass shooting victims</a></div>
+    <div class="meta">⏱ 2.0h</div>
+    <div class="au">wmtw.com</div><div class="nd">Báo đã đưa: wmtw.com</div>
+  </div>
+</div>
+<div class="card" data-cat="politics" data-plat="press" data-txt="trump administration reinstitutes bear baiting on alaska national ... humaneworld.org">
+  <div class="rank">#42</div>
+  
+  <div class="body">
+    <div class="top"><span class="sc">47.6</span><span class="p" style="background:#238636">Báo chí</span><span class="p cat">Chính trị</span><span class="p md">bài báo</span><span class="p nw">2 báo</span></div>
+    <div class="tt"><a href="https://www.humaneworld.org/us/en/news/alaska-bear-baiting-national-park-service-rule-2026" target="_blank" rel="noopener">Trump administration reinstitutes bear baiting on Alaska national ...</a></div>
+    <div class="meta">⏱ 6.0h</div>
+    <div class="au">humaneworld.org</div><ul class="also"><li><a href="https://www.democracydocket.com/news-alerts/its-happening-from-alaska-to-california-the-trump-administration-is-working-to-subvert-the-midterms/" target="_blank" rel="noopener">It's happening: From Alaska to California, the Trump administration ...</a> <i>Báo chí · democracydocket.com</i></li></ul><div class="nd">Báo đã đưa: democracydocket.com, humaneworld.org</div>
+  </div>
+</div>
+<div class="card" data-cat="cops" data-plat="press" data-txt="wanted man arrested in deadly clayton county gas station shooting fox5atlanta.com">
+  <div class="rank">#43</div>
+  
+  <div class="body">
+    <div class="top"><span class="sc">46.9</span><span class="p" style="background:#238636">Báo chí</span><span class="p cat cops">Cops</span><span class="p md">bài báo</span><span class="p nw">1 báo</span></div>
+    <div class="tt"><a href="https://www.fox5atlanta.com/news/wanted-man-arrested-deadly-clayton-county-gas-station-shooting" target="_blank" rel="noopener">Wanted man arrested in deadly Clayton County gas station shooting</a></div>
+    <div class="meta">⏱ 3.0h</div>
+    <div class="au">fox5atlanta.com</div><div class="nd">Báo đã đưa: fox5atlanta.com</div>
+  </div>
+</div>
+<div class="card" data-cat="cops" data-plat="press" data-txt="officer wounded in west philadelphia ambush shooting released ... 6abc.com">
+  <div class="rank">#44</div>
+  
+  <div class="body">
+    <div class="top"><span class="sc">45.9</span><span class="p" style="background:#238636">Báo chí</span><span class="p cat cops">Cops</span><span class="p md">bài báo</span><span class="p nw">3 báo</span></div>
+    <div class="tt"><a href="https://6abc.com/post/officer-wounded-west-philadelphia-ambush-shooting-released-hospital/19975821/" target="_blank" rel="noopener">Officer wounded in West Philadelphia ambush shooting released ...</a></div>
+    <div class="meta">⏱ 7.0h</div>
+    <div class="au">6abc.com</div><ul class="also"><li><a href="https://cedarnews.net/newstasks/1095214/shooting-officer-wounded-west-philadelphia-ambush-released/" target="_blank" rel="noopener">Officer wounded in West Philadelphia ambush shooting released ...</a> <i>Báo chí · cedarnews.net</i></li><li><a href="https://www.inquirer.com/news/philadelphia/west-philly-police-shooting-officer-hector-rodriguez-released-hospital-20261024.html-2" target="_blank" rel="noopener">Police officer critically wounded in West Philly shooting released ...</a> <i>Báo chí · inquirer.com</i></li></ul><div class="nd">Báo đã đưa: 6abc.com, cedarnews.net, inquirer.com</div>
+  </div>
+</div>
+<div class="card" data-cat="cops" data-plat="press" data-txt="france: 1 killed, 4 wounded after shooting near paris dw.com">
+  <div class="rank">#45</div>
+  
+  <div class="body">
+    <div class="top"><span class="sc">45.1</span><span class="p" style="background:#238636">Báo chí</span><span class="p cat cops">Cops</span><span class="p md">bài báo</span><span class="p nw">2 báo</span></div>
+    <div class="tt"><a href="https://www.dw.com/en/france-1-killed-4-wounded-after-shooting-near-paris/a-79742256" target="_blank" rel="noopener">France: 1 killed, 4 wounded after shooting near Paris</a></div>
+    <div class="meta">⏱ 6.0h</div>
+    <div class="au">dw.com</div><ul class="also"><li><a href="https://abc7news.com/amp/post/paris-protests-more-400000-protest-france-challenging-macron-clashes-erupt/19976107/" target="_blank" rel="noopener">than 400000 protest across France, challenging Macron as Paris ...</a> <i>Báo chí · abc7news.com</i></li></ul><div class="nd">Báo đã đưa: abc7news.com, dw.com</div>
+  </div>
+</div>
+<div class="card" data-cat="cops" data-plat="press" data-txt="canton rallies around grieving families after deadly house fire ... cbsnews.com">
+  <div class="rank">#46</div>
+  
+  <div class="body">
+    <div class="top"><span class="sc">44.3</span><span class="p" style="background:#238636">Báo chí</span><span class="p cat cops">Cops</span><span class="p md">bài báo</span><span class="p nw">2 báo</span></div>
+    <div class="tt"><a href="https://www.cbsnews.com/texas/news/canton-rallies-around-grieving-families-after-deadly-house-fire-deputys-death/" target="_blank" rel="noopener">Canton rallies around grieving families after deadly house fire ...</a></div>
+    <div class="meta">⏱ 5.0h</div>
+    <div class="au">cbsnews.com</div><ul class="also"><li><a href="https://www.cbs19.tv/article/news/crime/canton-police-department-officer-injured-deadly-shootout-released-from-hospital/501-73565c77-f0a7-4d71-9549-4a3d27c7a587" target="_blank" rel="noopener">Canton Police Department officer injured in deadly shootout ...</a> <i>Báo chí · cbs19.tv</i></li></ul><div class="nd">Báo đã đưa: cbs19.tv, cbsnews.com</div>
+  </div>
+</div>
+<div class="card" data-cat="cops" data-plat="press" data-txt="man fatally shot by police responding to apartment fire in hagerstown nbcwashington.com">
+  <div class="rank">#47</div>
+  
+  <div class="body">
+    <div class="top"><span class="sc">43.5</span><span class="p" style="background:#238636">Báo chí</span><span class="p cat cops">Cops</span><span class="p md">bài báo</span><span class="p nw">2 báo</span></div>
+    <div class="tt"><a href="https://www.nbcwashington.com/news/local/man-fatally-shot-police-apartment-fire-hagerstown-maryland/4171497/" target="_blank" rel="noopener">Man fatally shot by police responding to apartment fire in Hagerstown</a></div>
+    <div class="meta">⏱ 3.0h</div>
+    <div class="au">nbcwashington.com</div><ul class="also"><li><a href="https://wjla.com/news/local/hagerstown-maryland-police-shooting-fatal-randolph-avenue-apartment-fire-firefighters-tasers-knives-independent-investigations-division-attorney-general-body-camera-video-witnesses?teaserSource=trending" target="_blank" rel="noopener">Hagerstown officers fatally shoot man after firefighters ...</a> <i>Báo chí · wjla.com</i></li></ul><div class="nd">Báo đã đưa: nbcwashington.com, wjla.com</div>
+  </div>
+</div>
+<div class="card" data-cat="cops" data-plat="press" data-txt="tragic school shooting, familiar question: will a parent be charged? modbee.com">
+  <div class="rank">#48</div>
+  
+  <div class="body">
+    <div class="top"><span class="sc">42.6</span><span class="p" style="background:#238636">Báo chí</span><span class="p cat cops">Cops</span><span class="p md">bài báo</span><span class="p nw">2 báo</span></div>
+    <div class="tt"><a href="https://www.modbee.com/news/nation-world/national/article317764577.html" target="_blank" rel="noopener">Tragic school shooting, familiar question: Will a parent be charged?</a></div>
+    <div class="meta">⏱ 4.0h</div>
+    <div class="au">modbee.com</div><ul class="also"><li><a href="https://www.kentucky.com/news/nation-world/national/article317764577.html" target="_blank" rel="noopener">Tragic school shooting, familiar question: Will a parent be charged?</a> <i>Báo chí · kentucky.com</i></li></ul><div class="nd">Báo đã đưa: kentucky.com, modbee.com</div>
+  </div>
+</div>
+<div class="card" data-cat="cops" data-plat="press" data-txt="missing man found dead in locked car at kuala lumpur supermarket ... asiaone.com">
+  <div class="rank">#49</div>
+  
+  <div class="body">
+    <div class="top"><span class="sc">41.8</span><span class="p" style="background:#238636">Báo chí</span><span class="p cat cops">Cops</span><span class="p md">bài báo</span><span class="p nw">3 báo</span></div>
+    <div class="tt"><a href="https://www.asiaone.com/malaysia/missing-man-found-dead-locked-car-kuala-lumpur-supermarket-car-park" target="_blank" rel="noopener">Missing man found dead in locked car at Kuala Lumpur supermarket ...</a></div>
+    <div class="meta">⏱ 15.0h</div>
+    <div class="au">asiaone.com</div><ul class="also"><li><a href="https://www.nst.com.my/news/nation/2026/10/1562501/man-reported-missing-5-days-found-dead-kajang" target="_blank" rel="noopener">Man reported missing for 5 days found dead in Kajang</a> <i>Báo chí · nst.com.my</i></li><li><a href="https://malaysia.news.yahoo.com/missing-man-found-dead-locked-073935151.html" target="_blank" rel="noopener">Missing man found dead in locked car at Kajang supermarket car park</a> <i>Báo chí · malaysia.news.yahoo.com</i></li></ul><div class="nd">Báo đã đưa: asiaone.com, malaysia.news.yahoo.com, nst.com.my</div>
+  </div>
+</div>
+<div class="card" data-cat="politics" data-plat="press" data-txt="trump's national guard deployment to la was unlawful, court rules foxla.com">
+  <div class="rank">#50</div>
+  
+  <div class="body">
+    <div class="top"><span class="sc">41.0</span><span class="p" style="background:#238636">Báo chí</span><span class="p cat">Chính trị</span><span class="p md">bài báo</span><span class="p nw">4 báo</span></div>
+    <div class="tt"><a href="https://www.foxla.com/news/trumps-national-guard-deployment-la-was-unlawful-court-rules" target="_blank" rel="noopener">Trump's National Guard deployment to LA was unlawful, court rules</a></div>
+    <div class="meta">⏱ 20.0h</div>
+    <div class="au">foxla.com</div><ul class="also"><li><a href="https://hanfordsentinel.com/news/national/9th-circuit-blocks-path-for-trump-to-again-deploy-national-guard-without-state-approval/article_e056a5d7-254a-5a1d-bd56-ffd5bed4152d.html" target="_blank" rel="noopener">9th Circuit blocks path for Trump to again deploy National Guard ...</a> <i>Báo chí · hanfordsentinel.com</i></li><li><a href="https://www.kiro7.com/news/local/national-guard-deployed-ballot-boxes/d998613e-38ad-4de9-b28e-755a353d3f83/" target="_blank" rel="noopener">National guard deployed to ballot boxes</a> <i>Báo chí · kiro7.com</i></li><li><a href="https://news.bloomberglaw.com/litigation/9th-cir-upholds-block-on-trumps-national-guard-takeover-in-la" target="_blank" rel="noopener">Block on Trump's LA National Guard Takeover Upheld on Appeal</a> <i>Báo chí · news.bloomberglaw.com</i></li></ul><div class="nd">Báo đã đưa: foxla.com, hanfordsentinel.com, kiro7.com, news.bloomberglaw.com</div>
+  </div>
+</div>
+<div class="card" data-cat="cops" data-plat="press" data-txt="gunfire exchanged following south la car chase nbclosangeles.com">
+  <div class="rank">#51</div>
+  
+  <div class="body">
+    <div class="top"><span class="sc">40.2</span><span class="p" style="background:#238636">Báo chí</span><span class="p cat cops">Cops</span><span class="p md">bài báo</span><span class="p nw">3 báo</span></div>
+    <div class="tt"><a href="https://www.nbclosangeles.com/news/local/south-la-car-chase-gunfire/3960253/" target="_blank" rel="noopener">Gunfire exchanged following South LA car chase</a></div>
+    <div class="meta">⏱ 7.0h</div>
+    <div class="au">nbclosangeles.com</div><ul class="also"><li><a href="https://www.actionnewsjax.com/news/local/police-chase-ends-3-car-crash/72f8c32b-bf41-4e28-adb8-df00f4e0efe0/" target="_blank" rel="noopener">Police chase ends in 3-car crash</a> <i>Báo chí · actionnewsjax.com</i></li><li><a href="https://abc7.com/post/4-suspects-arrested-south-los-angeles-chase-ends-gunfire-lapd-says/19975670/" target="_blank" rel="noopener">4 suspects arrested after South Los Angeles chase ends with gunfire ...</a> <i>Báo chí · abc7.com</i></li></ul><div class="nd">Báo đã đưa: abc7.com, actionnewsjax.com, nbclosangeles.com</div>
+  </div>
+</div>
+<div class="card" data-cat="politics" data-plat="press" data-txt="ex-fbi officials charged with lying about involvement in investigation ... arabnews.com">
+  <div class="rank">#52</div>
+  
+  <div class="body">
+    <div class="top"><span class="sc">39.1</span><span class="p" style="background:#238636">Báo chí</span><span class="p cat">Chính trị</span><span class="p md">bài báo</span><span class="p nw">2 báo</span></div>
+    <div class="tt"><a href="https://www.arabnews.com/world/ex-fbi-officials-charged-with-lying-about-involvement-in-investigation-into-hunter-bidens-laptop-3008078" target="_blank" rel="noopener">Ex-FBI officials charged with lying about involvement in investigation ...</a></div>
+    <div class="meta">⏱ 8.0h</div>
+    <div class="au">arabnews.com</div><ul class="also"><li><a href="https://www.2news.com/news/national/2-ex-fbi-officials-charged-with-lying-about-involvement-in-investigation-into-hunter-bidens-laptop/article_dd383f1a-1206-59ad-9650-85cc30359b09.html" target="_blank" rel="noopener">2 ex-FBI officials charged with lying about involvement in ...</a> <i>Báo chí · 2news.com</i></li></ul><div class="nd">Báo đã đưa: 2news.com, arabnews.com</div>
+  </div>
+</div>
+<div class="card" data-cat="cops" data-plat="press" data-txt="pasco deputy dies after shooting himself in strip club parking lot: sheriff wfla.com">
+  <div class="rank">#53</div>
+  
+  <div class="body">
+    <div class="top"><span class="sc">38.2</span><span class="p" style="background:#238636">Báo chí</span><span class="p cat cops">Cops</span><span class="p md">bài báo</span><span class="p nw">1 báo</span></div>
+    <div class="tt"><a href="https://www.wfla.com/news/pinellas-county/pasco-deputy-dies-after-shooting-himself-in-strip-club-parking-lot-sheriff/" target="_blank" rel="noopener">Pasco deputy dies after shooting himself in strip club parking lot: sheriff</a></div>
+    <div class="meta">⏱ 6.0h</div>
+    <div class="au">wfla.com</div><div class="nd">Báo đã đưa: wfla.com</div>
+  </div>
+</div>
+<div class="card" data-cat="politics" data-plat="press" data-txt="second amendment rulings on switchblade knives fuel ar foxnews.com">
+  <div class="rank">#54</div>
+  
+  <div class="body">
+    <div class="top"><span class="sc">37.4</span><span class="p" style="background:#238636">Báo chí</span><span class="p cat">Chính trị</span><span class="p md">bài báo</span><span class="p nw">1 báo</span></div>
+    <div class="tt"><a href="https://www.foxnews.com/politics/second-amendment-fight-moving-beyond-guns-supreme-court-could-widen-further" target="_blank" rel="noopener">Second Amendment rulings on switchblade knives fuel AR</a></div>
+    <div class="meta">⏱ 4.0h</div>
+    <div class="au">foxnews.com</div><div class="nd">Báo đã đưa: foxnews.com</div>
+  </div>
+</div>
+<div class="card" data-cat="cops" data-plat="press" data-txt="chase ends with crash in north raleigh along leadmine road cbs17.com">
+  <div class="rank">#55</div>
+  
+  <div class="body">
+    <div class="top"><span class="sc">36.7</span><span class="p" style="background:#238636">Báo chí</span><span class="p cat cops">Cops</span><span class="p md">bài báo</span><span class="p nw">2 báo</span></div>
+    <div class="tt"><a href="https://www.cbs17.com/news/local-news/wake-county-news/chase-ends-with-crash-in-north-raleigh-along-leadmine-road/" target="_blank" rel="noopener">Chase ends with crash in north Raleigh along Leadmine Road</a></div>
+    <div class="meta">⏱ 3.0h</div>
+    <div class="au">cbs17.com</div><ul class="also"><li><a href="https://fox11online.com/news/local/2-dead-2-severely-injured-after-chase-ends-with-crash-in-marinette-county" target="_blank" rel="noopener">2 dead, 2 severely injured after chase ends with crash in Marinette ...</a> <i>Báo chí · fox11online.com</i></li></ul><div class="nd">Báo đã đưa: cbs17.com, fox11online.com</div>
+  </div>
+</div>
+<div class="card" data-cat="cops" data-plat="press" data-txt="stabbing, police-involved shooting reported in queens: authorities pix11.com">
+  <div class="rank">#56</div>
+  
+  <div class="body">
+    <div class="top"><span class="sc">35.9</span><span class="p" style="background:#238636">Báo chí</span><span class="p cat cops">Cops</span><span class="p md">bài báo</span><span class="p nw">2 báo</span></div>
+    <div class="tt"><a href="https://pix11.com/news/crime/stabbing-police-involved-shooting-reported-in-queens-authorities/" target="_blank" rel="noopener">Stabbing, police-involved shooting reported in Queens: authorities</a></div>
+    <div class="meta">⏱ 13.0h</div>
+    <div class="au">pix11.com</div><ul class="also"><li><a href="https://abc7ny.com/post/south-ozone-park-police-shooting-woman-shot-nypd-responding-stabbing-home-queens/19975297/" target="_blank" rel="noopener">Woman shot by NYPD responding to stabbing at home in Queens</a> <i>Báo chí · abc7ny.com</i></li></ul><div class="nd">Báo đã đưa: abc7ny.com, pix11.com</div>
+  </div>
+</div>
+<div class="card" data-cat="politics" data-plat="press" data-txt="five takeaways from trump's midterm campaign rallies reuters.com">
+  <div class="rank">#57</div>
+  
+  <div class="body">
+    <div class="top"><span class="sc">35.2</span><span class="p" style="background:#238636">Báo chí</span><span class="p cat">Chính trị</span><span class="p md">bài báo</span><span class="p nw">1 báo</span></div>
+    <div class="tt"><a href="https://www.reuters.com/world/us/five-takeaways-trumps-midterm-campaign-rallies-2026-10-24/" target="_blank" rel="noopener">Five takeaways from Trump's midterm campaign rallies</a></div>
+    <div class="meta">⏱ 6.0h</div>
+    <div class="au">reuters.com</div><div class="nd">Báo đã đưa: reuters.com</div>
+  </div>
+</div>
+<div class="card" data-cat="cops" data-plat="press" data-txt="salem shooting injures 1, suspect arrested and charged roanoke.com">
+  <div class="rank">#58</div>
+  
+  <div class="body">
+    <div class="top"><span class="sc">34.4</span><span class="p" style="background:#238636">Báo chí</span><span class="p cat cops">Cops</span><span class="p md">bài báo</span><span class="p nw">1 báo</span></div>
+    <div class="tt"><a href="https://roanoke.com/news/local/crime-courts/article_8b552cd1-3484-4025-9621-133f35ab5c47.html" target="_blank" rel="noopener">Salem shooting injures 1, suspect arrested and charged</a></div>
+    <div class="meta">⏱ 5.0h</div>
+    <div class="au">roanoke.com</div><div class="nd">Báo đã đưa: roanoke.com</div>
+  </div>
+</div>
+<div class="card" data-cat="politics" data-plat="press" data-txt="jd vance's 2nd kansas visit indicates gop concern in us senate race kansas.com">
+  <div class="rank">#59</div>
+  
+  <div class="body">
+    <div class="top"><span class="sc">33.6</span><span class="p" style="background:#238636">Báo chí</span><span class="p cat">Chính trị</span><span class="p md">bài báo</span><span class="p nw">2 báo</span></div>
+    <div class="tt"><a href="https://www.kansas.com/news/article317759617.html" target="_blank" rel="noopener">JD Vance's 2nd Kansas visit indicates GOP concern in US Senate race</a></div>
+    <div class="meta">⏱ 7.0h</div>
+    <div class="au">kansas.com</div><ul class="also"><li><a href="https://wwmt.com/news/state/vice-president-jd-vance-to-visit-michigan-a-week-before-nov-3-election-howell-chi-aviation-trump-obama-rogers-al-sayed-benson-james" target="_blank" rel="noopener">Vice President JD Vance to visit Michigan a week before Nov. 3 ...</a> <i>Báo chí · wwmt.com</i></li></ul><div class="nd">Báo đã đưa: kansas.com, wwmt.com</div>
+  </div>
+</div>
+<div class="card" data-cat="politics" data-plat="press" data-txt="centre extends tenure of defence secretary rajesh kumar singh by ... indiatvnews.com">
+  <div class="rank">#60</div>
+  
+  <div class="body">
+    <div class="top"><span class="sc">32.9</span><span class="p" style="background:#238636">Báo chí</span><span class="p cat">Chính trị</span><span class="p md">bài báo</span><span class="p nw">2 báo</span></div>
+    <div class="tt"><a href="https://www.indiatvnews.com/amp/news/india/centre-extends-tenure-of-defence-secretary-rajesh-kumar-singh-by-one-year-2026-10-24-1057826" target="_blank" rel="noopener">Centre extends tenure of Defence secretary Rajesh Kumar Singh by ...</a></div>
+    <div class="meta">⏱ 7.0h</div>
+    <div class="au">indiatvnews.com</div><ul class="also"><li><a href="https://bureaugram.com/news/tenure-of-rajesh-kumar-singh-as-secretary-defence-extended" target="_blank" rel="noopener">Tenure of Rajesh Kumar Singh as Secretary, Defence extended</a> <i>Báo chí · bureaugram.com</i></li></ul><div class="nd">Báo đã đưa: bureaugram.com, indiatvnews.com</div>
+  </div>
+</div>
+<div class="card" data-cat="cops" data-plat="press" data-txt="police arrest two males following break-and wrps.ca">
+  <div class="rank">#61</div>
+  
+  <div class="body">
+    <div class="top"><span class="sc">32.1</span><span class="p" style="background:#238636">Báo chí</span><span class="p cat cops">Cops</span><span class="p md">bài báo</span><span class="p nw">2 báo</span></div>
+    <div class="tt"><a href="https://wrps.ca/news/police-arrest-two-males-following-break-and-enter-cambridge-construction-property" target="_blank" rel="noopener">Police Arrest Two Males Following Break-and</a></div>
+    <div class="meta">⏱ 3.0h</div>
+    <div class="au">wrps.ca</div><ul class="also"><li><a href="https://www.sbsheriff.org/sheriffs-deputies-arrest-armed-suspect-following-brief-standoff/" target="_blank" rel="noopener">Sheriff's Deputies Arrest Armed Suspect Following Brief Standoff</a> <i>Báo chí · sbsheriff.org</i></li></ul><div class="nd">Báo đã đưa: sbsheriff.org, wrps.ca</div>
+  </div>
+</div>
+<div class="card" data-cat="cops" data-plat="press" data-txt="missing brunswick county teen located safe, sheriff's office confirms wwaytv3.com">
+  <div class="rank">#62</div>
+  
+  <div class="body">
+    <div class="top"><span class="sc">31.4</span><span class="p" style="background:#238636">Báo chí</span><span class="p cat cops">Cops</span><span class="p md">bài báo</span><span class="p nw">2 báo</span></div>
+    <div class="tt"><a href="https://www.wwaytv3.com/missing-brunswick-county-teen-located-safe-sheriffs-office-confirms/" target="_blank" rel="noopener">Missing Brunswick County teen located safe, sheriff's office confirms</a></div>
+    <div class="meta">⏱ 5.0h</div>
+    <div class="au">wwaytv3.com</div><ul class="also"><li><a href="https://13wham.com/news/local/monroe-county-sheriffs-office-searching-for-missing-teen" target="_blank" rel="noopener">Missing Hilton teen found safe</a> <i>Báo chí · 13wham.com</i></li></ul><div class="nd">Báo đã đưa: 13wham.com, wwaytv3.com</div>
+  </div>
+</div>
+<div class="card" data-cat="cops" data-plat="press" data-txt="man who fatally struck deputy after his son was killed by cincinnati ... wttf.com">
+  <div class="rank">#63</div>
+  
+  <div class="body">
+    <div class="top"><span class="sc">30.6</span><span class="p" style="background:#238636">Báo chí</span><span class="p cat cops">Cops</span><span class="p md">bài báo</span><span class="p nw">2 báo</span></div>
+    <div class="tt"><a href="https://wttf.com/uncategorized/man-who-fatally-struck-deputy-after-his-son-was-killed-by-cincinnati-police-is-convicted-of-murder/" target="_blank" rel="noopener">Man who fatally struck deputy after his son was killed by Cincinnati ...</a></div>
+    <div class="meta">⏱ 14.0h</div>
+    <div class="au">wttf.com</div><ul class="also"><li><a href="https://abcnews.com/US/wireStory/man-fatally-struck-deputy-after-son-killed-cincinnati-137526586" target="_blank" rel="noopener">Man who fatally struck deputy after his son was killed by Cincinnati ...</a> <i>Báo chí · abcnews.com</i></li></ul><div class="nd">Báo đã đưa: abcnews.com, wttf.com</div>
+  </div>
+</div>
+<div class="card" data-cat="cops" data-plat="press" data-txt="two-year manhunt ends as kenyan man arrested in tanzania over ... citizen.digital">
+  <div class="rank">#64</div>
+  
+  <div class="body">
+    <div class="top"><span class="sc">29.9</span><span class="p" style="background:#238636">Báo chí</span><span class="p cat cops">Cops</span><span class="p md">bài báo</span><span class="p nw">1 báo</span></div>
+    <div class="tt"><a href="https://citizen.digital/article/two-year-manhunt-ends-as-kenyan-man-arrested-in-tanzania-over-wifes-2024-murder-n392675" target="_blank" rel="noopener">Two-year manhunt ends as Kenyan man arrested in Tanzania over ...</a></div>
+    <div class="meta">⏱ 5.0h</div>
+    <div class="au">citizen.digital</div><div class="nd">Báo đã đưa: citizen.digital</div>
+  </div>
+</div>
+<div class="card" data-cat="cops" data-plat="press" data-txt="lsp detectives investigating deputy-involved shooting in cameron ... lsp.org">
+  <div class="rank">#65</div>
+  
+  <div class="body">
+    <div class="top"><span class="sc">29.1</span><span class="p" style="background:#238636">Báo chí</span><span class="p cat cops">Cops</span><span class="p md">bài báo</span><span class="p nw">2 báo</span></div>
+    <div class="tt"><a href="https://lsp.org/community-outreach/news/lsp-detectives-investigating-deputy-involved-shooting-in-cameron-parish/" target="_blank" rel="noopener">LSP Detectives Investigating Deputy-Involved Shooting in Cameron ...</a></div>
+    <div class="meta">⏱ 19.0h</div>
+    <div class="au">lsp.org</div><ul class="also"><li><a href="https://abc7ny.com/post/police-involved-shooting-scene-multiple-stabbing-queens-sources-say/19974523/" target="_blank" rel="noopener">Police-involved shooting at scene of multiple</a> <i>Báo chí · abc7ny.com</i></li></ul><div class="nd">Báo đã đưa: abc7ny.com, lsp.org</div>
+  </div>
+</div>
+<div class="card" data-cat="cops" data-plat="press" data-txt="bodycam video released in fatal shooting by deputy in victorville sanluisobispo.com">
+  <div class="rank">#66</div>
+  
+  <div class="body">
+    <div class="top"><span class="sc">28.4</span><span class="p" style="background:#238636">Báo chí</span><span class="p cat cops">Cops</span><span class="p md">bài báo</span><span class="p nw">1 báo</span></div>
+    <div class="tt"><a href="https://www.sanluisobispo.com/news/article317765651.html" target="_blank" rel="noopener">Bodycam video released in fatal shooting by deputy in Victorville</a></div>
+    <div class="meta">⏱ 2.0h</div>
+    <div class="au">sanluisobispo.com</div><div class="nd">Báo đã đưa: sanluisobispo.com</div>
+  </div>
+</div>
+<div class="card" data-cat="cops" data-plat="press" data-txt="philly officer leaves hospital after shooting that killed partner nbcphiladelphia.com">
+  <div class="rank">#67</div>
+  
+  <div class="body">
+    <div class="top"><span class="sc">27.6</span><span class="p" style="background:#238636">Báo chí</span><span class="p cat cops">Cops</span><span class="p md">bài báo</span><span class="p nw">1 báo</span></div>
+    <div class="tt"><a href="https://www.nbcphiladelphia.com/news/local/philly-officer-set-to-leave-hospital-after-shooting-that-killed-partner/4484676/" target="_blank" rel="noopener">Philly officer leaves hospital after shooting that killed partner</a></div>
+    <div class="meta">⏱ 10.0h</div>
+    <div class="au">nbcphiladelphia.com</div><div class="nd">Báo đã đưa: nbcphiladelphia.com</div>
+  </div>
+</div>
+<div class="card" data-cat="cops" data-plat="press" data-txt="fbi explores espionage case against saudi openai suspect wsj.com">
+  <div class="rank">#68</div>
+  
+  <div class="body">
+    <div class="top"><span class="sc">26.9</span><span class="p" style="background:#238636">Báo chí</span><span class="p cat cops">Cops</span><span class="p md">bài báo</span><span class="p nw">1 báo</span></div>
+    <div class="tt"><a href="https://www.wsj.com/us-news/law/fbi-explores-espionage-case-against-saudi-openai-suspect-fbaedefe" target="_blank" rel="noopener">FBI Explores Espionage Case Against Saudi OpenAI Suspect</a></div>
+    <div class="meta">⏱ 7.0h</div>
+    <div class="au">wsj.com</div><div class="nd">Báo đã đưa: wsj.com</div>
+  </div>
+</div>
+<div class="card" data-cat="cops" data-plat="press" data-txt="florida officer accused of living in dead man's home - austin kxan.com">
+  <div class="rank">#69</div>
+  
+  <div class="body">
+    <div class="top"><span class="sc">26.2</span><span class="p" style="background:#238636">Báo chí</span><span class="p cat cops">Cops</span><span class="p md">bài báo</span><span class="p nw">1 báo</span></div>
+    <div class="tt"><a href="https://www.kxan.com/news/florida-officer-accused-of-living-in-dead-mans-home/" target="_blank" rel="noopener">Florida officer accused of living in dead man's home - Austin</a></div>
+    <div class="meta">⏱ 5.0h</div>
+    <div class="au">kxan.com</div><div class="nd">Báo đã đưa: kxan.com</div>
+  </div>
+</div>
+<div class="card" data-cat="cops" data-plat="press" data-txt="suspect dead after shootout involving denver police friday night denver7.com">
+  <div class="rank">#70</div>
+  
+  <div class="body">
+    <div class="top"><span class="sc">25.5</span><span class="p" style="background:#238636">Báo chí</span><span class="p cat cops">Cops</span><span class="p md">bài báo</span><span class="p nw">1 báo</span></div>
+    <div class="tt"><a href="https://www.denver7.com/news/crime/suspect-dead-after-critical-incident-involving-denver-police-friday-night" target="_blank" rel="noopener">Suspect dead after shootout involving Denver Police Friday night</a></div>
+    <div class="meta">⏱ 4.0h</div>
+    <div class="au">denver7.com</div><div class="nd">Báo đã đưa: denver7.com</div>
+  </div>
+</div>
+<div class="card" data-cat="cops" data-plat="press" data-txt="woman dead, man in critical condition after reported fight inside ... abc7news.com">
+  <div class="rank">#71</div>
+  
+  <div class="body">
+    <div class="top"><span class="sc">24.7</span><span class="p" style="background:#238636">Báo chí</span><span class="p cat cops">Cops</span><span class="p md">bài báo</span><span class="p nw">1 báo</span></div>
+    <div class="tt"><a href="https://abc7news.com/post/woman-dead-man-critical-condition-reported-fight-inside-concord-home-panoramic-drive-police-say/19976336/" target="_blank" rel="noopener">Woman dead, man in critical condition after reported fight inside ...</a></div>
+    <div class="meta">⏱ 3.0h</div>
+    <div class="au">abc7news.com</div><div class="nd">Báo đã đưa: abc7news.com</div>
+  </div>
+</div>
+<div class="card" data-cat="cops" data-plat="press" data-txt="salvadoran troops land in haiti aboard pentagon plane amid crisis ... kdhnews.com">
+  <div class="rank">#72</div>
+  
+  <div class="body">
+    <div class="top"><span class="sc">23.9</span><span class="p" style="background:#238636">Báo chí</span><span class="p cat cops">Cops</span><span class="p md">bài báo</span><span class="p nw">1 báo</span></div>
+    <div class="tt"><a href="https://kdhnews.com/news/world/salvadoran-troops-land-in-haiti-aboard-pentagon-plane-amid-crisis-over-ambushed-soldiers/article_c7b61c63-38c0-5f73-adeb-504b03ba36a2.html" target="_blank" rel="noopener">Salvadoran troops land in Haiti aboard Pentagon plane amid crisis ...</a></div>
+    <div class="meta">⏱ 3.0h</div>
+    <div class="au">kdhnews.com</div><div class="nd">Báo đã đưa: kdhnews.com</div>
+  </div>
+</div>
+<div class="card" data-cat="cops" data-plat="press" data-txt="suspect charged after assaulting leverett police officer wwlp.com">
+  <div class="rank">#73</div>
+  
+  <div class="body">
+    <div class="top"><span class="sc">23.2</span><span class="p" style="background:#238636">Báo chí</span><span class="p cat cops">Cops</span><span class="p md">bài báo</span><span class="p nw">1 báo</span></div>
+    <div class="tt"><a href="https://www.wwlp.com/news/crime/suspect-charged-after-assaulting-leverett-police-officer/" target="_blank" rel="noopener">Suspect charged after assaulting Leverett Police officer</a></div>
+    <div class="meta">⏱ 3.0h</div>
+    <div class="au">wwlp.com</div><div class="nd">Báo đã đưa: wwlp.com</div>
+  </div>
+</div>
+<div class="card" data-cat="politics" data-plat="press" data-txt="trump officials warn decades-long decline among american men ... foxnews.com">
+  <div class="rank">#74</div>
+  
+  <div class="body">
+    <div class="top"><span class="sc">22.5</span><span class="p" style="background:#238636">Báo chí</span><span class="p cat">Chính trị</span><span class="p md">bài báo</span><span class="p nw">1 báo</span></div>
+    <div class="tt"><a href="https://www.foxnews.com/politics/trump-officials-warn-decades-long-decline-american-men-could-carry-national-security-consequences" target="_blank" rel="noopener">Trump officials warn decades-long decline among American men ...</a></div>
+    <div class="meta">⏱ 13.0h</div>
+    <div class="au">foxnews.com</div><div class="nd">Báo đã đưa: foxnews.com</div>
+  </div>
+</div>
+<div class="card" data-cat="cops" data-plat="press" data-txt="judge to rule on release of woman who injured federal officer star-telegram.com">
+  <div class="rank">#75</div>
+  
+  <div class="body">
+    <div class="top"><span class="sc">21.7</span><span class="p" style="background:#238636">Báo chí</span><span class="p cat cops">Cops</span><span class="p md">bài báo</span><span class="p nw">1 báo</span></div>
+    <div class="tt"><a href="https://www.star-telegram.com/news/local/crime/article317762145.html" target="_blank" rel="noopener">Judge to rule on release of woman who injured federal officer</a></div>
+    <div class="meta">⏱ 4.0h</div>
+    <div class="au">star-telegram.com</div><div class="nd">Báo đã đưa: star-telegram.com</div>
+  </div>
+</div>
+<div class="card" data-cat="politics" data-plat="press" data-txt="supreme court ruling undermines the concept of u.s. citizenship fairus.org">
+  <div class="rank">#76</div>
+  
+  <div class="body">
+    <div class="top"><span class="sc">21.0</span><span class="p" style="background:#238636">Báo chí</span><span class="p cat">Chính trị</span><span class="p md">bài báo</span><span class="p nw">1 báo</span></div>
+    <div class="tt"><a href="https://www.fairus.org/supreme-court-ruling-undermines-concept-us-citizenship" target="_blank" rel="noopener">Supreme Court Ruling Undermines the Concept of U.S. Citizenship</a></div>
+    <div class="meta">⏱ 3.0h</div>
+    <div class="au">fairus.org</div><div class="nd">Báo đã đưa: fairus.org</div>
+  </div>
+</div>
+<div class="card" data-cat="cops" data-plat="press" data-txt="missing sexually violent predator merle wakefield found dead in ... foxla.com">
+  <div class="rank">#77</div>
+  
+  <div class="body">
+    <div class="top"><span class="sc">20.2</span><span class="p" style="background:#238636">Báo chí</span><span class="p cat cops">Cops</span><span class="p md">bài báo</span><span class="p nw">1 báo</span></div>
+    <div class="tt"><a href="https://www.foxla.com/news/merle-wakefield-sexually-violent-predator-found-dead" target="_blank" rel="noopener">Missing sexually violent predator Merle Wakefield found dead in ...</a></div>
+    <div class="meta">⏱ 4.0h</div>
+    <div class="au">foxla.com</div><div class="nd">Báo đã đưa: foxla.com</div>
+  </div>
+</div>
+<div class="card" data-cat="politics" data-plat="press" data-txt="news | page 32 - california voter foundation calvoter.org">
+  <div class="rank">#78</div>
+  
+  <div class="body">
+    <div class="top"><span class="sc">19.5</span><span class="p" style="background:#238636">Báo chí</span><span class="p cat">Chính trị</span><span class="p md">bài báo</span><span class="p nw">2 báo</span></div>
+    <div class="tt"><a href="https://calvoter.org/news/cvfnews/cvfnews042199.html?page=31" target="_blank" rel="noopener">News | Page 32 - California Voter Foundation</a></div>
+    <div class="meta">⏱ 13.0h</div>
+    <div class="au">calvoter.org</div><ul class="also"><li><a href="https://www.abc10.com/article/news/politics/elections/doj-asks-california-counties-to-set-aside-ballots-over-voter-citizenship-concerns-pending-verification/103-8ecad83c-7072-4b00-a707-284efde54904" target="_blank" rel="noopener">DOJ asks California counties to set aside ballots over voter ...</a> <i>Báo chí · abc10.com</i></li></ul><div class="nd">Báo đã đưa: abc10.com, calvoter.org</div>
+  </div>
+</div>
+<div class="card" data-cat="cops" data-plat="press" data-txt="memphis mass shooting suspect in custody, mpd says fox13memphis.com">
+  <div class="rank">#79</div>
+  
+  <div class="body">
+    <div class="top"><span class="sc">18.7</span><span class="p" style="background:#238636">Báo chí</span><span class="p cat cops">Cops</span><span class="p md">bài báo</span><span class="p nw">1 báo</span></div>
+    <div class="tt"><a href="https://www.fox13memphis.com/news/memphis-mass-shooting-suspect-in-custody-mpd-says/article_a45e8a8f-ebab-40b5-9f8f-8f439f6ae527.html" target="_blank" rel="noopener">Memphis mass shooting suspect in custody, MPD says</a></div>
+    <div class="meta">⏱ 8.0h</div>
+    <div class="au">fox13memphis.com</div><div class="nd">Báo đã đưa: fox13memphis.com</div>
+  </div>
+</div>
+<div class="card" data-cat="cops" data-plat="press" data-txt="3 haverstraw officers hurt after attempted burglary suspect runs ... westchester.news12.com">
+  <div class="rank">#80</div>
+  
+  <div class="body">
+    <div class="top"><span class="sc">17.9</span><span class="p" style="background:#238636">Báo chí</span><span class="p cat cops">Cops</span><span class="p md">bài báo</span><span class="p nw">1 báo</span></div>
+    <div class="tt"><a href="https://westchester.news12.com/3-haverstraw-officers-hurt-after-attempted-burglary-suspect-runs-over-officer-crashes-into-police-vehicle-during-pursuit" target="_blank" rel="noopener">3 Haverstraw Officers Hurt After Attempted Burglary Suspect Runs ...</a></div>
+    <div class="meta">⏱ 4.0h</div>
+    <div class="au">westchester.news12.com</div><ul class="also"><li><a href="https://westchester.news12.com/haverstraw-police-officer-injured-after-being-struck-by-vehicle-during-possible-burglary" target="_blank" rel="noopener">Haverstraw Police Officer Injured After Being Struck By Vehicle ...</a> <i>Báo chí · westchester.news12.com</i></li></ul><div class="nd">Báo đã đưa: westchester.news12.com</div>
+  </div>
+</div>
+<div class="card" data-cat="politics" data-plat="press" data-txt="trump-epstein bookmobile heads to florida with millions of pages ... floridapolitics.com">
+  <div class="rank">#81</div>
+  
+  <div class="body">
+    <div class="top"><span class="sc">17.2</span><span class="p" style="background:#238636">Báo chí</span><span class="p cat">Chính trị</span><span class="p md">bài báo</span><span class="p nw">2 báo</span></div>
+    <div class="tt"><a href="https://floridapolitics.com/archives/826748-trump-epstein-bookmobile-heads-to-florida-with-millions-of-pages-demands-for-answers/" target="_blank" rel="noopener">Trump-Epstein bookmobile heads to Florida with millions of pages ...</a></div>
+    <div class="meta">⏱ 12.0h</div>
+    <div class="au">floridapolitics.com</div><ul class="also"><li><a href="https://www.miamiherald.com/news/article317760672.html" target="_blank" rel="noopener">Trump-Epstein Bookmobile is touring Florida. Where to see it</a> <i>Báo chí · miamiherald.com</i></li></ul><div class="nd">Báo đã đưa: floridapolitics.com, miamiherald.com</div>
+  </div>
+</div>
+<div class="card" data-cat="politics" data-plat="press" data-txt="new york state woman charged with voting illegally says she ... pbs.org">
+  <div class="rank">#82</div>
+  
+  <div class="body">
+    <div class="top"><span class="sc">16.5</span><span class="p" style="background:#238636">Báo chí</span><span class="p cat">Chính trị</span><span class="p md">bài báo</span><span class="p nw">1 báo</span></div>
+    <div class="tt"><a href="https://www.pbs.org/newshour/politics/new-york-state-woman-charged-with-voting-illegally-says-she-recently-learned-she-wasnt-a-citizen" target="_blank" rel="noopener">New York state woman charged with voting illegally says she ...</a></div>
+    <div class="meta">⏱ 6.0h</div>
+    <div class="au">pbs.org</div><div class="nd">Báo đã đưa: pbs.org</div>
+  </div>
+</div>
+<div class="card" data-cat="politics" data-plat="press" data-txt="track early voting in california for the 2026 midterm election on nov. 3 kcra.com">
+  <div class="rank">#83</div>
+  
+  <div class="body">
+    <div class="top"><span class="sc">15.8</span><span class="p" style="background:#238636">Báo chí</span><span class="p cat">Chính trị</span><span class="p md">bài báo</span><span class="p nw">2 báo</span></div>
+    <div class="tt"><a href="https://www.kcra.com/article/california-track-early-voting-2026-midterm-election-nov-3/74233713" target="_blank" rel="noopener">Track early voting in California for the 2026 midterm election on Nov. 3</a></div>
+    <div class="meta">⏱ 11.0h</div>
+    <div class="au">kcra.com</div><ul class="also"><li><a href="https://www.yahoo.com/news/videos/early-voting-numbers-indicate-nov-004911417.html" target="_blank" rel="noopener">Early voting numbers indicate Nov. 3 will be a 'competitive night'</a> <i>Báo chí · yahoo.com</i></li></ul><div class="nd">Báo đã đưa: kcra.com, yahoo.com</div>
+  </div>
+</div>
+<div class="card" data-cat="cops" data-plat="press" data-txt="man arrested on murder charges in davenport shooting incident ourquadcities.com">
+  <div class="rank">#84</div>
+  
+  <div class="body">
+    <div class="top"><span class="sc">15.1</span><span class="p" style="background:#238636">Báo chí</span><span class="p cat cops">Cops</span><span class="p md">bài báo</span><span class="p nw">1 báo</span></div>
+    <div class="tt"><a href="https://www.ourquadcities.com/news/local-news/man-arrested-on-murder-charges-in-davenport-shooting-incident/" target="_blank" rel="noopener">Man arrested on murder charges in Davenport shooting incident</a></div>
+    <div class="meta">⏱ 12.0h</div>
+    <div class="au">ourquadcities.com</div><div class="nd">Báo đã đưa: ourquadcities.com</div>
+  </div>
+</div>
+<div class="card" data-cat="politics" data-plat="press" data-txt="correction: biden laptop-fbi officials charged story - union union-bulletin.com">
+  <div class="rank">#85</div>
+  
+  <div class="body">
+    <div class="top"><span class="sc">14.4</span><span class="p" style="background:#238636">Báo chí</span><span class="p cat">Chính trị</span><span class="p md">bài báo</span><span class="p nw">1 báo</span></div>
+    <div class="tt"><a href="https://www.union-bulletin.com/news/national/correction-biden-laptop-fbi-officials-charged-story/article_05606fe8-5cb9-5e28-998c-851b2a8e8eed.html" target="_blank" rel="noopener">Correction: Biden Laptop-FBI Officials Charged story - Union</a></div>
+    <div class="meta">⏱ 7.0h</div>
+    <div class="au">union-bulletin.com</div><div class="nd">Báo đã đưa: union-bulletin.com</div>
+  </div>
+</div>
+<div class="card" data-cat="politics" data-plat="press" data-txt="send the election deniers packing, once and for all bloomberg.com">
+  <div class="rank">#86</div>
+  
+  <div class="body">
+    <div class="top"><span class="sc">13.7</span><span class="p" style="background:#238636">Báo chí</span><span class="p cat">Chính trị</span><span class="p md">bài báo</span><span class="p nw">1 báo</span></div>
+    <div class="tt"><a href="https://www.bloomberg.com/opinion/articles/2026-10-24/election-deniers-on-the-ballot-in-2026-don-t-deserve-to-win" target="_blank" rel="noopener">Send the Election Deniers Packing, Once and for All</a></div>
+    <div class="meta">⏱ 12.0h</div>
+    <div class="au">bloomberg.com</div><div class="nd">Báo đã đưa: bloomberg.com</div>
+  </div>
+</div>
+<div class="card" data-cat="politics" data-plat="press" data-txt="election 2026 michigan | national news clintonherald.com">
+  <div class="rank">#87</div>
+  
+  <div class="body">
+    <div class="top"><span class="sc">12.9</span><span class="p" style="background:#238636">Báo chí</span><span class="p cat">Chính trị</span><span class="p md">bài báo</span><span class="p nw">1 báo</span></div>
+    <div class="tt"><a href="https://www.clintonherald.com/news/national_news/election-2026-michigan/image_e0c4f950-6945-5095-b5ef-adbb44f30314.html" target="_blank" rel="noopener">Election 2026 Michigan | National News</a></div>
+    <div class="meta">⏱ 2.0h</div>
+    <div class="au">clintonherald.com</div><div class="nd">Báo đã đưa: clintonherald.com</div>
+  </div>
+</div>
+<div class="card" data-cat="cops" data-plat="press" data-txt="tribute following death of two police officers btp.police.uk">
+  <div class="rank">#88</div>
+  
+  <div class="body">
+    <div class="top"><span class="sc">12.2</span><span class="p" style="background:#238636">Báo chí</span><span class="p cat cops">Cops</span><span class="p md">bài báo</span><span class="p nw">1 báo</span></div>
+    <div class="tt"><a href="https://www.btp.police.uk/cy-GB/news/btp/newyddion/england/tribute-following-death-of-two-police-officers--cleveland/" target="_blank" rel="noopener">Tribute following death of two police officers</a></div>
+    <div class="meta">⏱ 5.0h</div>
+    <div class="au">btp.police.uk</div><div class="nd">Báo đã đưa: btp.police.uk</div>
+  </div>
+</div>
+<div class="card" data-cat="politics" data-plat="press" data-txt="trump thirsts over male bodies at florida rally thedailybeast.com">
+  <div class="rank">#89</div>
+  
+  <div class="body">
+    <div class="top"><span class="sc">11.5</span><span class="p" style="background:#238636">Báo chí</span><span class="p cat">Chính trị</span><span class="p md">bài báo</span><span class="p nw">1 báo</span></div>
+    <div class="tt"><a href="https://www.thedailybeast.com/trump-thirsts-over-male-bodies-at-florida-rally" target="_blank" rel="noopener">Trump Thirsts Over Male Bodies at Florida Rally</a></div>
+    <div class="meta">⏱ 5.0h</div>
+    <div class="au">thedailybeast.com</div><div class="nd">Báo đã đưa: thedailybeast.com</div>
+  </div>
+</div>
+<div class="card" data-cat="cops" data-plat="press" data-txt="police shooting occurs as tactical alert issued following pursuit and ... ktla.com">
+  <div class="rank">#90</div>
+  
+  <div class="body">
+    <div class="top"><span class="sc">10.8</span><span class="p" style="background:#238636">Báo chí</span><span class="p cat cops">Cops</span><span class="p md">bài báo</span><span class="p nw">1 báo</span></div>
+    <div class="tt"><a href="https://ktla.com/news/local-news/police-shooting-occurs-as-tactical-alert-issued-following-pursuit-and-lapd-involved-crash/" target="_blank" rel="noopener">Police shooting occurs as tactical alert issued following pursuit and ...</a></div>
+    <div class="meta">⏱ 10.0h</div>
+    <div class="au">ktla.com</div><div class="nd">Báo đã đưa: ktla.com</div>
+  </div>
+</div>
+<div class="card" data-cat="politics" data-plat="press" data-txt="trump's oval office outburst has social media questioning his ... the-independent.com">
+  <div class="rank">#91</div>
+  
+  <div class="body">
+    <div class="top"><span class="sc">10.1</span><span class="p" style="background:#238636">Báo chí</span><span class="p cat">Chính trị</span><span class="p md">bài báo</span><span class="p nw">1 báo</span></div>
+    <div class="tt"><a href="https://www.the-independent.com/news/world/americas/us-politics/trump-oval-office-outburst-the-independent-reporter-reactions-b3072684.html" target="_blank" rel="noopener">Trump's Oval Office outburst has social media questioning his ...</a></div>
+    <div class="meta">⏱ 12.0h</div>
+    <div class="au">the-independent.com</div><div class="nd">Báo đã đưa: the-independent.com</div>
+  </div>
+</div>
+<div class="card" data-cat="cops" data-plat="press" data-txt="meriden police investigating homicide after man found stabbed on ... wtnh.com">
+  <div class="rank">#92</div>
+  
+  <div class="body">
+    <div class="top"><span class="sc">9.4</span><span class="p" style="background:#238636">Báo chí</span><span class="p cat cops">Cops</span><span class="p md">bài báo</span><span class="p nw">1 báo</span></div>
+    <div class="tt"><a href="https://www.wtnh.com/news/connecticut/new-haven/meriden-police-investigating-homicide-after-man-found-stabbed-on-pratt-street/" target="_blank" rel="noopener">Meriden police investigating homicide after man found stabbed on ...</a></div>
+    <div class="meta">⏱ 3.0h</div>
+    <div class="au">wtnh.com</div><div class="nd">Báo đã đưa: wtnh.com</div>
+  </div>
+</div>
+<div class="card" data-cat="politics" data-plat="press" data-txt="vance front and center in republican midterms push theguardian.com">
+  <div class="rank">#93</div>
+  
+  <div class="body">
+    <div class="top"><span class="sc">8.7</span><span class="p" style="background:#238636">Báo chí</span><span class="p cat">Chính trị</span><span class="p md">bài báo</span><span class="p nw">1 báo</span></div>
+    <div class="tt"><a href="https://www.theguardian.com/us-news/ng-interactive/2026/oct/24/jd-vance-trump-midterms-white-house" target="_blank" rel="noopener">Vance front and center in Republican midterms push</a></div>
+    <div class="meta">⏱ 15.0h</div>
+    <div class="au">theguardian.com</div><div class="nd">Báo đã đưa: theguardian.com</div>
+  </div>
+</div>
+<div class="card" data-cat="cops" data-plat="press" data-txt="'racist terror attack' leaves 12-year-old girl shot 8 times, 1 man ... people.com">
+  <div class="rank">#94</div>
+  
+  <div class="body">
+    <div class="top"><span class="sc">7.9</span><span class="p" style="background:#238636">Báo chí</span><span class="p cat cops">Cops</span><span class="p md">bài báo</span><span class="p nw">1 báo</span></div>
+    <div class="tt"><a href="https://people.com/french-terror-attack-shooting-1-dead-at-least-5-injured-including-12-year-old-girl-12191769" target="_blank" rel="noopener">'Racist Terror Attack' Leaves 12-Year-Old Girl Shot 8 Times, 1 Man ...</a></div>
+    <div class="meta">⏱ 7.0h</div>
+    <div class="au">people.com</div><div class="nd">Báo đã đưa: people.com</div>
+  </div>
+</div>
+<div class="card" data-cat="cops" data-plat="press" data-txt="crash that injured norfolk officer, assaults on first responders land ... norfolkdailynews.com">
+  <div class="rank">#95</div>
+  
+  <div class="body">
+    <div class="top"><span class="sc">7.2</span><span class="p" style="background:#238636">Báo chí</span><span class="p cat cops">Cops</span><span class="p md">bài báo</span><span class="p nw">1 báo</span></div>
+    <div class="tt"><a href="https://norfolkdailynews.com/select/news/crash-that-injured-norfolk-officer-assaults-on-first-responders-land-madison-man-in-prison/article_924e3bc5-74f1-426a-aa5e-7eaeb246eace.html" target="_blank" rel="noopener">Crash that injured Norfolk officer, assaults on first responders land ...</a></div>
+    <div class="meta">⏱ 9.0h</div>
+    <div class="au">norfolkdailynews.com</div><div class="nd">Báo đã đưa: norfolkdailynews.com</div>
+  </div>
+</div>
+<div class="card" data-cat="cops" data-plat="press" data-txt="suspect arrested for hit-and-run crash that killed 83-year-old ... ktla.com">
+  <div class="rank">#96</div>
+  
+  <div class="body">
+    <div class="top"><span class="sc">6.5</span><span class="p" style="background:#238636">Báo chí</span><span class="p cat cops">Cops</span><span class="p md">bài báo</span><span class="p nw">1 báo</span></div>
+    <div class="tt"><a href="https://ktla.com/news/local-news/suspect-arrested-la-crash-grandfather-killed/" target="_blank" rel="noopener">Suspect arrested for hit-and-run crash that killed 83-year-old ...</a></div>
+    <div class="meta">⏱ 19.0h</div>
+    <div class="au">ktla.com</div><div class="nd">Báo đã đưa: ktla.com</div>
+  </div>
+</div>
+<div class="card" data-cat="politics" data-plat="press" data-txt="new trump rule allows hunters to bait bears in alaska with ... theguardian.com">
+  <div class="rank">#97</div>
+  
+  <div class="body">
+    <div class="top"><span class="sc">5.8</span><span class="p" style="background:#238636">Báo chí</span><span class="p cat">Chính trị</span><span class="p md">bài báo</span><span class="p nw">1 báo</span></div>
+    <div class="tt"><a href="https://www.theguardian.com/us-news/2026/oct/24/trump-administration-alaska-bear-hunting-bait" target="_blank" rel="noopener">New Trump rule allows hunters to bait bears in Alaska with ...</a></div>
+    <div class="meta">⏱ 13.0h</div>
+    <div class="au">theguardian.com</div><div class="nd">Báo đã đưa: theguardian.com</div>
+  </div>
+</div>
+<div class="card" data-cat="politics" data-plat="press" data-txt="trump's words used against him in alaska lawsuit, doj sanctions ... newsweek.com">
+  <div class="rank">#98</div>
+  
+  <div class="body">
+    <div class="top"><span class="sc">5.1</span><span class="p" style="background:#238636">Báo chí</span><span class="p cat">Chính trị</span><span class="p md">bài báo</span><span class="p nw">1 báo</span></div>
+    <div class="tt"><a href="https://www.newsweek.com/trumps-words-used-against-him-in-alaska-lawsuit-doj-sanctions-sought-12614087" target="_blank" rel="noopener">Trump's Words Used Against Him in Alaska Lawsuit, DOJ Sanctions ...</a></div>
+    <div class="meta">⏱ 11.0h</div>
+    <div class="au">newsweek.com</div><div class="nd">Báo đã đưa: newsweek.com</div>
+  </div>
+</div>
+<div class="card" data-cat="cops" data-plat="press" data-txt="3 children, 1 teacher and suspect killed in oregon elementary ... courthousenews.com">
+  <div class="rank">#99</div>
+  
+  <div class="body">
+    <div class="top"><span class="sc">4.4</span><span class="p" style="background:#238636">Báo chí</span><span class="p cat cops">Cops</span><span class="p md">bài báo</span><span class="p nw">1 báo</span></div>
+    <div class="tt"><a href="https://www.courthousenews.com/3-children-1-teacher-and-suspect-killed-in-oregon-elementary-school-shooting" target="_blank" rel="noopener">3 children, 1 teacher and suspect killed in Oregon elementary ...</a></div>
+    <div class="meta">⏱ 17.0h</div>
+    <div class="au">courthousenews.com</div><div class="nd">Báo đã đưa: courthousenews.com</div>
+  </div>
+</div>
+<div class="card" data-cat="cops" data-plat="press" data-txt="tampa police officer injured in crash involving hart bus, another ... wtsp.com">
+  <div class="rank">#100</div>
+  
+  <div class="body">
+    <div class="top"><span class="sc">3.6</span><span class="p" style="background:#238636">Báo chí</span><span class="p cat cops">Cops</span><span class="p md">bài báo</span><span class="p nw">1 báo</span></div>
+    <div class="tt"><a href="https://www.wtsp.com/article/news/local/hillsboroughcounty/tampa-police-officer-injured-crash-involving-hart-bus-another-vehicle/67-b95618f9-a578-4602-9085-8c9f877d41b4" target="_blank" rel="noopener">Tampa police officer injured in crash involving HART bus, another ...</a></div>
+    <div class="meta">⏱ 8.0h</div>
+    <div class="au">wtsp.com</div><div class="nd">Báo đã đưa: wtsp.com</div>
+  </div>
+</div><div id="empty" class="empty hide">Không có tin nào khớp bộ lọc.</div></main>
+<script>
+var F={cat:'all',plat:'all',q:''};
+function setF(k,v){F[k]=v;render();}
+function render(){
+  var n=0;
+  document.querySelectorAll('.card').forEach(function(c){
+    var ok=true;
+    if(F.cat!=='all' && c.dataset.cat!==F.cat) ok=false;
+    if(F.plat!=='all'){
+      var ps=(c.dataset.plat||'').split(',');
+      if(ps.indexOf(F.plat)<0) ok=false;
+    }
+    if(F.q && (c.dataset.txt||'').indexOf(F.q)<0) ok=false;
+    c.classList.toggle('hide',!ok);
+    if(ok) n++;
+  });
+  document.getElementById('cnt').textContent=n;
+  document.getElementById('empty').classList.toggle('hide',n>0);
+}
+function btns(id,k,v){return 'onclick="setF(\''+k+'\',\''+v+'\');document.querySelectorAll(\'#'+id+' .btn\').forEach(function(b){b.classList.remove(\'on\')});this.classList.add(\'on\')"';}
+document.addEventListener('DOMContentLoaded',function(){
+  document.getElementById('q').addEventListener('input',function(e){
+    F.q=e.target.value.toLowerCase();render();});
+  render();
+});
+</script></body></html>
